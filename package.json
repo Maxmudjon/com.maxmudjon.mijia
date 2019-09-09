@@ -1,0 +1,32 @@
+{
+  "name": "com.maxmudjon.mijia",
+  "version": "1.0.0",
+  "description": "Homey app",
+  "main": "app.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "dependencies": {
+    "mem": "^5.1.1",
+    "mimorelinks": "^1.2.1",
+    "miio": "^0.15.6"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Maxmudjon/com.maxmudjon.mijia.git"
+  },
+  "keywords": [
+    "Homey",
+    "mijia"
+  ],
+  "author": "Payziyev Maxmudjon",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Maxmudjon/com.maxmudjon.mijia/issues"
+  },
+  "homepage": "https://github.com/Maxmudjon/com.maxmudjon.mijia#readme"
+}

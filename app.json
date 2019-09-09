@@ -1935,6 +1935,110 @@
             "filter": "driver_id=mi_rockrobo_vacuum_v1|mi_rockrobo_vacuum_s5"
           }
         ]
+      },
+      {
+        "id": "air_fresh_on",
+        "title": {
+          "en": "Power on"
+        },
+        "args": [
+          {
+            "name": "device",
+            "type": "device",
+            "filter": "driver_id=zhimi_airfresh_va2"
+          }
+        ]
+      },
+      {
+        "id": "air_fresh_off",
+        "title": {
+          "en": "Power off"
+        },
+        "args": [
+          {
+            "name": "device",
+            "type": "device",
+            "filter": "driver_id=zhimi_airfresh_va2"
+          }
+        ]
+      },
+      {
+        "id": "air_fresh_mode",
+        "title": {
+          "en": "Set air fresh mode"
+        },
+        "args": [
+          {
+            "name": "device",
+            "type": "device",
+            "filter": "driver_id=zhimi_airfresh_va2"
+          },
+          {
+            "type": "dropdown",
+            "name": "modes",
+            "values": [
+              {
+                "id": "auto",
+                "label": {
+                  "en": "Auto"
+                }
+              },
+              {
+                "id": "silent",
+                "label": {
+                  "en": "Silent"
+                }
+              },
+              {
+                "id": "interval",
+                "label": {
+                  "en": "Interval"
+                }
+              },
+              {
+                "id": "low",
+                "label": {
+                  "en": "Low"
+                }
+              },
+              {
+                "id": "middle",
+                "label": {
+                  "en": "Middle"
+                }
+              },
+              {
+                "id": "strong",
+                "label": {
+                  "en": "Strong"
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "air_fresh_speed",
+        "title": {
+          "en": "Set air fresh speed"
+        },
+        "args": [
+          {
+            "name": "device",
+            "type": "device",
+            "filter": "driver_id=zhimi_airfresh_va2"
+          },
+          {
+            "type": "range",
+            "name": "speed",
+            "min": 0,
+            "max": 1,
+            "step": 0.01,
+            "label": "%",
+            "labelMultiplier": 100,
+            "labelDecimals": 0
+          }
+        ]
       }
     ]
   },
@@ -2022,6 +2126,55 @@
           "id": "favorite",
           "title": {
             "en": "Favorite"
+          }
+        }
+      ],
+      "getable": true,
+      "setable": true
+    },
+    "air_fresh_mode": {
+      "type": "enum",
+      "title": {
+        "en": "Air Fresh Mode"
+      },
+      "desc": {
+        "en": "Air Fresh Mode"
+      },
+      "values": [
+        {
+          "id": "auto",
+          "title": {
+            "en": "Auto"
+          }
+        },
+        {
+          "id": "silent",
+          "title": {
+            "en": "Silent"
+          }
+        },
+        {
+          "id": "interval",
+          "title": {
+            "en": "Interval"
+          }
+        },
+        {
+          "id": "low",
+          "title": {
+            "en": "Low"
+          }
+        },
+        {
+          "id": "middle",
+          "title": {
+            "en": "Middle"
+          }
+        },
+        {
+          "id": "strong",
+          "title": {
+            "en": "Strong"
           }
         }
       ],
@@ -8679,6 +8832,145 @@
       "images": {
         "large": "/drivers/mi_humidifier_ca1/assets/images/large.png",
         "small": "/drivers/mi_humidifier_ca1/assets/images/small.png"
+      },
+      "pair": [
+        {
+          "id": "xiaomi",
+          "navigation": {
+            "next": "done"
+          }
+        },
+        {
+          "id": "done",
+          "navigation": {
+            "prev": "xiaomi"
+          }
+        }
+      ]
+    },
+    {
+      "id": "zhimi_airfresh_va2",
+      "name": {
+        "en": "Mi Air Fresh VA2"
+      },
+      "class": "sensor",
+      "capabilities": ["onoff", "dim", "air_fresh_mode", "measure_temperature", "measure_humidity", "measure_pm25", "measure_co2"],
+      "capabilitiesOptions": {
+        "onoff": {
+          "title": {
+            "en": "Power"
+          }
+        },
+        "dim": {
+          "title": {
+            "en": "Speed"
+          }
+        }
+      },
+      "mobile": {
+        "components": [
+          {
+            "id": "icon",
+            "capabilities": ["onoff"]
+          },
+          {
+            "id": "slider",
+            "capabilities": ["dim"],
+            "options": {
+              "showTitle": true
+            }
+          },
+          {
+            "id": "picker",
+            "capabilities": ["air_fresh_mode"]
+          },
+          {
+            "id": "sensor",
+            "capabilities": ["measure_temperature", "measure_humidity", "measure_pm25", "measure_co2"]
+          }
+        ]
+      },
+      "settings": [
+        {
+          "type": "group",
+          "label": {
+            "en": "Mi Air Fresh VA2 settings"
+          },
+          "children": [
+            {
+              "id": "deviceIP",
+              "type": "text",
+              "value": "192.168.xxx.xxx",
+              "label": {
+                "en": "IP Address"
+              }
+            },
+            {
+              "id": "deviceToken",
+              "type": "text",
+              "value": "",
+              "label": {
+                "en": "Device Token"
+              }
+            },
+            {
+              "id": "updateTimer",
+              "type": "number",
+              "value": 60,
+              "attr": {
+                "min": 5,
+                "max": 3600
+              },
+              "label": {
+                "en": "Device update timer"
+              }
+            }
+          ]
+        },
+        {
+          "type": "group",
+          "label": {
+            "en": "Extra settings"
+          },
+          "children": [
+            {
+              "id": "led",
+              "type": "checkbox",
+              "value": true,
+              "label": {
+                "en": "LED"
+              }
+            },
+            {
+              "id": "buzzer",
+              "type": "checkbox",
+              "value": true,
+              "label": {
+                "en": "Buzzer"
+              }
+            },
+            {
+              "id": "childLock",
+              "type": "checkbox",
+              "value": true,
+              "label": {
+                "en": "Child Lock"
+              }
+            },
+            {
+              "id": "f1_hour_used",
+              "type": "label",
+              "label": {
+                "en": "Filter life"
+              },
+              "value": "0%"
+            }
+          ]
+        }
+      ],
+      "images": {
+        "large": "/drivers/zhimi_airfresh_va2/assets/images/large.png",
+        "small": "/drivers/zhimi_airfresh_va2/assets/images/small.png"
       },
       "pair": [
         {
