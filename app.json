@@ -4,13 +4,16 @@
   "compatibility": ">=1.5.0",
   "sdk": 2,
   "name": {
-    "en": "MiJia"
+    "en": "MiJia",
+    "nl": "MiJia"
   },
   "tags": {
-    "en": ["mijia", "mi", "xioami", "gateway", "mi hub", "yeelight", "philips"]
+    "en": ["mijia", "mi", "xioami", "gateway", "mi hub", "yeelight", "philips", "mihomey"],
+    "nl": ["mijia", "mi", "xioami", "gateway", "mi hub", "yeelight", "philips", "mihomey"]
   },
   "description": {
-    "en": "Adds support for MiJia Gateways child devices and Mi WiFi devices"
+    "en": "Adds support for MiJia Gateways child devices and Mi WiFi devices",
+    "nl": "Voegt ondersteuning toe voor MiJia Gateways-kinderapparaten en Mi WiFi-apparaten"
   },
   "category": ["tools"],
   "brandColor": "#4FBD50",
@@ -46,7 +49,8 @@
       {
         "id": "left_click_db86_switch",
         "title": {
-          "en": "Left button clicked"
+          "en": "Left button clicked",
+          "nl": "Linkerknop geklikt"
         },
         "args": [
           {
@@ -59,7 +63,8 @@
       {
         "id": "right_click_db86_switch",
         "title": {
-          "en": "Right button clicked"
+          "en": "Right button clicked",
+          "nl": "Rechter knop geklikt"
         },
         "args": [
           {
@@ -72,7 +77,8 @@
       {
         "id": "both_click_db86_switch",
         "title": {
-          "en": "Both buttons clicked"
+          "en": "Both buttons clicked",
+          "nl": "Beide knoppen klikten"
         },
         "args": [
           {
@@ -85,7 +91,8 @@
       {
         "id": "power_on",
         "title": {
-          "en": "Power on"
+          "en": "Power on",
+          "nl": "Inschakelen"
         },
         "args": [
           {
@@ -98,7 +105,8 @@
       {
         "id": "power_off",
         "title": {
-          "en": "Power off"
+          "en": "Power off",
+          "nl": "Schakel uit"
         },
         "args": [
           {
@@ -111,7 +119,8 @@
       {
         "id": "power_toggle",
         "title": {
-          "en": "Power changed"
+          "en": "Power changed",
+          "nl": "Macht veranderd"
         },
         "args": [
           {
@@ -124,7 +133,8 @@
       {
         "id": "click_button_switch",
         "title": {
-          "en": "Single click button switch"
+          "en": "Single click button switch",
+          "nl": "Schakelaar met één klik"
         },
         "args": [
           {
@@ -137,7 +147,8 @@
       {
         "id": "double_click_click_button_switch",
         "title": {
-          "en": "Double click button switch"
+          "en": "Double click button switch",
+          "nl": "Dubbelklik knopschakelaar"
         },
         "args": [
           {
@@ -150,7 +161,8 @@
       {
         "id": "long_click_press_click_button_switch",
         "title": {
-          "en": "Long press button switch"
+          "en": "Long press button switch",
+          "nl": "Druk lang op de knopschakelaar"
         },
         "args": [
           {
@@ -163,7 +175,8 @@
       {
         "id": "long_click_release_click_button_switch",
         "title": {
-          "en": "Long press and release button switch"
+          "en": "Long press and release button switch",
+          "nl": "Druk lang op de knopschakelaar en laat hem los"
         },
         "args": [
           {
@@ -176,7 +189,8 @@
       {
         "id": "shake_click_button_switch",
         "title": {
-          "en": "Shake air button switch"
+          "en": "Shake air button switch",
+          "nl": "Schud de luchtknopschakelaar"
         },
         "args": [
           {
@@ -189,7 +203,8 @@
       {
         "id": "click_sb86_switch",
         "title": {
-          "en": "Click single switch"
+          "en": "Click single switch",
+          "nl": ""
         },
         "args": [
           {
@@ -202,7 +217,8 @@
       {
         "id": "left_switch_on",
         "title": {
-          "en": "Left switch power on"
+          "en": "Left switch power on",
+          "nl": ""
         },
         "args": [
           {
@@ -215,7 +231,8 @@
       {
         "id": "left_switch_off",
         "title": {
-          "en": "Left switch power off"
+          "en": "Left switch power off",
+          "nl": ""
         },
         "args": [
           {
@@ -228,7 +245,8 @@
       {
         "id": "left_switch_toggle",
         "title": {
-          "en": "Left switch power changed"
+          "en": "Left switch power changed",
+          "nl": ""
         },
         "args": [
           {
@@ -241,7 +259,8 @@
       {
         "id": "right_switch_on",
         "title": {
-          "en": "Right switch power on"
+          "en": "Right switch power on",
+          "nl": ""
         },
         "args": [
           {
@@ -254,7 +273,8 @@
       {
         "id": "right_switch_off",
         "title": {
-          "en": "Right switch power off"
+          "en": "Right switch power off",
+          "nl": ""
         },
         "args": [
           {
@@ -267,7 +287,8 @@
       {
         "id": "right_switch_toggle",
         "title": {
-          "en": "Right switch power changed"
+          "en": "Right switch power changed",
+          "nl": ""
         },
         "args": [
           {
@@ -280,7 +301,8 @@
       {
         "id": "shake_air_cube",
         "title": {
-          "en": "Cube shake air"
+          "en": "Cube shake air",
+          "nl": ""
         },
         "args": [
           {
@@ -293,7 +315,8 @@
       {
         "id": "tap_twice_cube",
         "title": {
-          "en": "Cube twice tap"
+          "en": "Cube twice tap",
+          "nl": ""
         },
         "args": [
           {
@@ -306,7 +329,8 @@
       {
         "id": "move_cube",
         "title": {
-          "en": "Cube move"
+          "en": "Cube move",
+          "nl": ""
         },
         "args": [
           {
@@ -319,7 +343,8 @@
       {
         "id": "flip180_cube",
         "title": {
-          "en": "Cube flip to 180°"
+          "en": "Cube flip to 180°",
+          "nl": ""
         },
         "args": [
           {
@@ -332,7 +357,8 @@
       {
         "id": "flip90_cube",
         "title": {
-          "en": "Cube flip to 90°"
+          "en": "Cube flip to 90°",
+          "nl": ""
         },
         "args": [
           {
@@ -345,7 +371,8 @@
       {
         "id": "free_fall_cube",
         "title": {
-          "en": "Cube free fall"
+          "en": "Cube free fall",
+          "nl": ""
         },
         "args": [
           {
@@ -358,7 +385,8 @@
       {
         "id": "alert_cube",
         "title": {
-          "en": "Cube alert"
+          "en": "Cube alert",
+          "nl": ""
         },
         "args": [
           {
@@ -371,7 +399,8 @@
       {
         "id": "rotate_positive_cube",
         "title": {
-          "en": "Cube rotate to positive °"
+          "en": "Cube rotate to positive °",
+          "nl": ""
         },
         "args": [
           {
@@ -384,7 +413,8 @@
       {
         "id": "rotate_negative_cube",
         "title": {
-          "en": "Cube rotate to negative °"
+          "en": "Cube rotate to negative °",
+          "nl": ""
         },
         "args": [
           {
@@ -397,14 +427,16 @@
       {
         "id": "cubeRotated",
         "title": {
-          "en": "Cube rotated"
+          "en": "Cube rotated",
+          "nl": ""
         },
         "tokens": [
           {
             "name": "cube_rotated",
             "type": "number",
             "title": {
-              "en": "cube rotated"
+              "en": "cube rotated",
+              "nl": ""
             },
             "example": 0
           }
@@ -420,7 +452,8 @@
       {
         "id": "alarm_ch4_yes",
         "title": {
-          "en": "Natural gas leak detected"
+          "en": "Natural gas leak detected",
+          "nl": ""
         },
         "args": [
           {
@@ -433,7 +466,8 @@
       {
         "id": "alarm_ch4_no",
         "title": {
-          "en": "Natural gas leak not detected"
+          "en": "Natural gas leak not detected",
+          "nl": ""
         },
         "args": [
           {
@@ -446,7 +480,8 @@
       {
         "id": "left_click_button_switch",
         "title": {
-          "en": "Left click button switch"
+          "en": "Left click button switch",
+          "nl": ""
         },
         "args": [
           {
@@ -459,7 +494,8 @@
       {
         "id": "left_double_click_click_button_switch",
         "title": {
-          "en": "Left double click button switch"
+          "en": "Left double click button switch",
+          "nl": ""
         },
         "args": [
           {
@@ -472,7 +508,8 @@
       {
         "id": "left_long_click_press_click_button_switch",
         "title": {
-          "en": "Left long press button switch"
+          "en": "Left long press button switch",
+          "nl": ""
         },
         "args": [
           {
@@ -485,7 +522,8 @@
       {
         "id": "right_click_button_switch",
         "title": {
-          "en": "Right click button switch"
+          "en": "Right click button switch",
+          "nl": ""
         },
         "args": [
           {
@@ -498,7 +536,8 @@
       {
         "id": "right_double_click_click_button_switch",
         "title": {
-          "en": "Right double click button switch"
+          "en": "Right double click button switch",
+          "nl": ""
         },
         "args": [
           {
@@ -511,7 +550,8 @@
       {
         "id": "right_long_click_press_click_button_switch",
         "title": {
-          "en": "Right long press button switch"
+          "en": "Right long press button switch",
+          "nl": ""
         },
         "args": [
           {
@@ -524,7 +564,8 @@
       {
         "id": "both_click_click_press_click_button_switch",
         "title": {
-          "en": "Both click press button switch"
+          "en": "Both click press button switch",
+          "nl": ""
         },
         "args": [
           {
@@ -537,14 +578,16 @@
       {
         "id": "lockUsed",
         "title": {
-          "en": "The lock opened with"
+          "en": "The lock opened with",
+          "nl": ""
         },
         "tokens": [
           {
             "name": "finger_id",
             "type": "number",
             "title": {
-              "en": "finger id"
+              "en": "finger id",
+              "nl": ""
             },
             "example": 0
           },
@@ -552,7 +595,8 @@
             "name": "code_id",
             "type": "number",
             "title": {
-              "en": "code id"
+              "en": "code id",
+              "nl": ""
             },
             "example": 0
           },
@@ -560,7 +604,8 @@
             "name": "card_id",
             "type": "number",
             "title": {
-              "en": "card id"
+              "en": "card id",
+              "nl": ""
             },
             "example": 0
           },
@@ -568,17 +613,20 @@
             "name": "userName",
             "type": "string",
             "title": {
-              "en": "Who opens"
+              "en": "Who opens",
+              "nl": ""
             },
             "example": {
-              "en": "Maxmudjon"
+              "en": "Maxmudjon",
+              "nl": ""
             }
           },
           {
             "name": "wrong_id",
             "type": "number",
             "title": {
-              "en": "wrong id"
+              "en": "wrong id",
+              "nl": ""
             },
             "example": 3
           }
@@ -594,14 +642,16 @@
       {
         "id": "meterAmpere",
         "title": {
-          "en": "The ampere changed"
+          "en": "The ampere changed",
+          "nl": ""
         },
         "tokens": [
           {
             "name": "ampere",
             "type": "number",
             "title": {
-              "en": "Ampere"
+              "en": "Ampere",
+              "nl": ""
             },
             "example": 0
           }
@@ -617,7 +667,8 @@
       {
         "id": "vibrate_sensor_vibrate",
         "title": {
-          "en": "On vibrate"
+          "en": "On vibrate",
+          "nl": ""
         },
         "args": [
           {
@@ -630,7 +681,8 @@
       {
         "id": "vibrate_sensor_tilt",
         "title": {
-          "en": "On tilt"
+          "en": "On tilt",
+          "nl": ""
         },
         "args": [
           {
@@ -643,7 +695,8 @@
       {
         "id": "vibrate_sensor_free_fall",
         "title": {
-          "en": "On free fall"
+          "en": "On free fall",
+          "nl": ""
         },
         "args": [
           {
@@ -656,7 +709,8 @@
       {
         "id": "main_brush_work_time",
         "title": {
-          "en": "Alarm time left main brush"
+          "en": "Alarm time left main brush",
+          "nl": ""
         },
         "args": [
           {
@@ -669,7 +723,8 @@
       {
         "id": "side_brush_work_time",
         "title": {
-          "en": "Alarm time left side brush"
+          "en": "Alarm time left side brush",
+          "nl": ""
         },
         "args": [
           {
@@ -682,7 +737,8 @@
       {
         "id": "filter_work_time",
         "title": {
-          "en": "Alarm time left filter"
+          "en": "Alarm time left filter",
+          "nl": ""
         },
         "args": [
           {
@@ -695,7 +751,8 @@
       {
         "id": "sensor_dirty_time",
         "title": {
-          "en": "Alarm time left sensor"
+          "en": "Alarm time left sensor",
+          "nl": ""
         },
         "args": [
           {
@@ -708,14 +765,16 @@
       {
         "id": "vacuumState",
         "title": {
-          "en": "The vacuum state changed"
+          "en": "The vacuum state changed",
+          "nl": ""
         },
         "tokens": [
           {
             "name": "state",
             "type": "string",
             "title": {
-              "en": "state"
+              "en": "state",
+              "nl": ""
             },
             "example": "cleaning"
           }
@@ -733,7 +792,8 @@
       {
         "id": "power_active",
         "title": {
-          "en": "Power is !{{on|off}}"
+          "en": "Power is !{{on|off}}",
+          "nl": ""
         },
         "args": [
           {
@@ -746,7 +806,8 @@
       {
         "id": "left_switch_active",
         "title": {
-          "en": "Left switch power is !{{on|off}}"
+          "en": "Left switch power is !{{on|off}}",
+          "nl": ""
         },
         "args": [
           {
@@ -759,7 +820,8 @@
       {
         "id": "right_switch_active",
         "title": {
-          "en": "Right switch power is !{{on|off}}"
+          "en": "Right switch power is !{{on|off}}",
+          "nl": ""
         },
         "args": [
           {
@@ -772,7 +834,8 @@
       {
         "id": "alarm_ch4",
         "title": {
-          "en": "Natural gas leak !{{detected|not detected}}"
+          "en": "Natural gas leak !{{detected|not detected}}",
+          "nl": ""
         },
         "args": [
           {
@@ -785,14 +848,16 @@
       {
         "id": "purifier_power",
         "title": {
-          "en": "Power is !{{on|off}}"
+          "en": "Power is !{{on|off}}",
+          "nl": ""
         },
         "args": [
           {
             "name": "device",
             "type": "device",
             "placeholder": {
-              "en": "Select Purifier"
+              "en": "Select Purifier",
+              "nl": ""
             },
             "filter": "driver_id=mi_air_purifier_ma2|mi_air_purifier_v6"
           }
@@ -801,14 +866,16 @@
       {
         "id": "humidifier_power",
         "title": {
-          "en": "Power is !{{on|off}}"
+          "en": "Power is !{{on|off}}",
+          "nl": ""
         },
         "args": [
           {
             "name": "device",
             "type": "device",
             "placeholder": {
-              "en": "Select Humidifier"
+              "en": "Select Humidifier",
+              "nl": ""
             },
             "filter": "driver_id=mi_humidifier_v1|mi_humidifier_ca1"
           }
@@ -819,7 +886,8 @@
       {
         "id": "power_on",
         "title": {
-          "en": "Power turn on"
+          "en": "Power turn on",
+          "nl": ""
         },
         "args": [
           {
@@ -832,7 +900,8 @@
       {
         "id": "power_off",
         "title": {
-          "en": "Power turn off"
+          "en": "Power turn off",
+          "nl": ""
         },
         "args": [
           {
@@ -845,7 +914,8 @@
       {
         "id": "left_switch_on",
         "title": {
-          "en": "Left switch power turn on"
+          "en": "Left switch power turn on",
+          "nl": ""
         },
         "args": [
           {
@@ -858,7 +928,8 @@
       {
         "id": "left_switch_off",
         "title": {
-          "en": "Left switch power turn off"
+          "en": "Left switch power turn off",
+          "nl": ""
         },
         "args": [
           {
@@ -871,7 +942,8 @@
       {
         "id": "left_switch_toggle",
         "title": {
-          "en": "Left switch power toggle"
+          "en": "Left switch power toggle",
+          "nl": ""
         },
         "args": [
           {
@@ -884,7 +956,8 @@
       {
         "id": "right_switch_on",
         "title": {
-          "en": "Right switch power turn on"
+          "en": "Right switch power turn on",
+          "nl": ""
         },
         "args": [
           {
@@ -897,7 +970,8 @@
       {
         "id": "right_switch_off",
         "title": {
-          "en": "Right switch power turn off"
+          "en": "Right switch power turn off",
+          "nl": ""
         },
         "args": [
           {
@@ -910,7 +984,8 @@
       {
         "id": "right_switch_toggle",
         "title": {
-          "en": "Right switch power toggle"
+          "en": "Right switch power toggle",
+          "nl": ""
         },
         "args": [
           {
@@ -923,7 +998,8 @@
       {
         "id": "play_tone",
         "title": {
-          "en": "Play tone"
+          "en": "Play tone",
+          "nl": ""
         },
         "args": [
           {
@@ -938,145 +1014,169 @@
               {
                 "id": "0",
                 "label": {
-                  "en": "Police car 1"
+                  "en": "Police car 1",
+                  "nl": ""
                 }
               },
               {
                 "id": "1",
                 "label": {
-                  "en": "Police car 2"
+                  "en": "Police car 2",
+                  "nl": ""
                 }
               },
               {
                 "id": "2",
                 "label": {
-                  "en": "Accident"
+                  "en": "Accident",
+                  "nl": ""
                 }
               },
               {
                 "id": "3",
                 "label": {
-                  "en": "Countdown"
+                  "en": "Countdown",
+                  "nl": ""
                 }
               },
               {
                 "id": "4",
                 "label": {
-                  "en": "Ghost"
+                  "en": "Ghost",
+                  "nl": ""
                 }
               },
               {
                 "id": "5",
                 "label": {
-                  "en": "Sniper rifle"
+                  "en": "Sniper rifle",
+                  "nl": ""
                 }
               },
               {
                 "id": "6",
                 "label": {
-                  "en": "Battle"
+                  "en": "Battle",
+                  "nl": ""
                 }
               },
               {
                 "id": "7",
                 "label": {
-                  "en": "Air raid"
+                  "en": "Air raid",
+                  "nl": ""
                 }
               },
               {
                 "id": "8",
                 "label": {
-                  "en": "Bark"
+                  "en": "Bark",
+                  "nl": ""
                 }
               },
               {
                 "id": "10",
                 "label": {
-                  "en": "Doorbell"
+                  "en": "Doorbell",
+                  "nl": ""
                 }
               },
               {
                 "id": "11",
                 "label": {
-                  "en": "Knock at a door"
+                  "en": "Knock at a door",
+                  "nl": ""
                 }
               },
               {
                 "id": "12",
                 "label": {
-                  "en": "Amuse"
+                  "en": "Amuse",
+                  "nl": ""
                 }
               },
               {
                 "id": "13",
                 "label": {
-                  "en": "Alarm clock"
+                  "en": "Alarm clock",
+                  "nl": ""
                 }
               },
               {
                 "id": "20",
                 "label": {
-                  "en": "MiMix"
+                  "en": "MiMix",
+                  "nl": ""
                 }
               },
               {
                 "id": "21",
                 "label": {
-                  "en": "Enthusiastic"
+                  "en": "Enthusiastic",
+                  "nl": ""
                 }
               },
               {
                 "id": "22",
                 "label": {
-                  "en": "GuitarClassic"
+                  "en": "GuitarClassic",
+                  "nl": ""
                 }
               },
               {
                 "id": "23",
                 "label": {
-                  "en": "IceWorldPiano"
+                  "en": "IceWorldPiano",
+                  "nl": ""
                 }
               },
               {
                 "id": "24",
                 "label": {
-                  "en": "LeisureTime"
+                  "en": "LeisureTime",
+                  "nl": ""
                 }
               },
               {
                 "id": "25",
                 "label": {
-                  "en": "ChildHood"
+                  "en": "ChildHood",
+                  "nl": ""
                 }
               },
               {
                 "id": "26",
                 "label": {
-                  "en": "MorningStreamLiet"
+                  "en": "MorningStreamLiet",
+                  "nl": ""
                 }
               },
               {
                 "id": "27",
                 "label": {
-                  "en": "MusicBox"
+                  "en": "MusicBox",
+                  "nl": ""
                 }
               },
               {
                 "id": "28",
                 "label": {
-                  "en": "Orange"
+                  "en": "Orange",
+                  "nl": ""
                 }
               },
               {
                 "id": "29",
                 "label": {
-                  "en": "Thinker"
+                  "en": "Thinker",
+                  "nl": ""
                 }
               },
               {
                 "id": "10000",
                 "label": {
-                  "en": "MUTE"
+                  "en": "MUTE",
+                  "nl": ""
                 }
               }
             ]
@@ -1096,7 +1196,8 @@
       {
         "id": "play_radio",
         "title": {
-          "en": "Favorite radio lists"
+          "en": "Favorite radio lists",
+          "nl": ""
         },
         "args": [
           {
@@ -1111,121 +1212,141 @@
               {
                 "id": "0",
                 "label": {
-                  "en": "1 - favorite radio"
+                  "en": "1 - favorite radio",
+                  "nl": ""
                 }
               },
               {
                 "id": "1",
                 "label": {
-                  "en": "2 - favorite radio"
+                  "en": "2 - favorite radio",
+                  "nl": ""
                 }
               },
               {
                 "id": "2",
                 "label": {
-                  "en": "3 - favorite radio"
+                  "en": "3 - favorite radio",
+                  "nl": ""
                 }
               },
               {
                 "id": "3",
                 "label": {
-                  "en": "4 - favorite radio"
+                  "en": "4 - favorite radio",
+                  "nl": ""
                 }
               },
               {
                 "id": "4",
                 "label": {
-                  "en": "5 - favorite radio"
+                  "en": "5 - favorite radio",
+                  "nl": ""
                 }
               },
               {
                 "id": "5",
                 "label": {
-                  "en": "6 - favorite radio"
+                  "en": "6 - favorite radio",
+                  "nl": ""
                 }
               },
               {
                 "id": "6",
                 "label": {
-                  "en": "7 - favorite radio"
+                  "en": "7 - favorite radio",
+                  "nl": ""
                 }
               },
               {
                 "id": "7",
                 "label": {
-                  "en": "8 - favorite radio"
+                  "en": "8 - favorite radio",
+                  "nl": ""
                 }
               },
               {
                 "id": "8",
                 "label": {
-                  "en": "9 - favorite radio"
+                  "en": "9 - favorite radio",
+                  "nl": ""
                 }
               },
               {
                 "id": "9",
                 "label": {
-                  "en": "10 - favorite radio"
+                  "en": "10 - favorite radio",
+                  "nl": ""
                 }
               },
               {
                 "id": "10",
                 "label": {
-                  "en": "11 - favorite radio"
+                  "en": "11 - favorite radio",
+                  "nl": ""
                 }
               },
               {
                 "id": "11",
                 "label": {
-                  "en": "12 - favorite radio"
+                  "en": "12 - favorite radio",
+                  "nl": ""
                 }
               },
               {
                 "id": "12",
                 "label": {
-                  "en": "13 - favorite radio"
+                  "en": "13 - favorite radio",
+                  "nl": ""
                 }
               },
               {
                 "id": "13",
                 "label": {
-                  "en": "14 - favorite radio"
+                  "en": "14 - favorite radio",
+                  "nl": ""
                 }
               },
               {
                 "id": "13",
                 "label": {
-                  "en": "15 - favorite radio"
+                  "en": "15 - favorite radio",
+                  "nl": ""
                 }
               },
               {
                 "id": "15",
                 "label": {
-                  "en": "16 - favorite radio"
+                  "en": "16 - favorite radio",
+                  "nl": ""
                 }
               },
               {
                 "id": "16",
                 "label": {
-                  "en": "17 - favorite radio"
+                  "en": "17 - favorite radio",
+                  "nl": ""
                 }
               },
               {
                 "id": "17",
                 "label": {
-                  "en": "18 - favorite radio"
+                  "en": "18 - favorite radio",
+                  "nl": ""
                 }
               },
               {
                 "id": "18",
                 "label": {
-                  "en": "19 - favorite radio"
+                  "en": "19 - favorite radio",
+                  "nl": ""
                 }
               },
               {
                 "id": "19",
                 "label": {
-                  "en": "20 - favorite radio"
+                  "en": "20 - favorite radio",
+                  "nl": ""
                 }
               }
             ]
@@ -1245,21 +1366,24 @@
       {
         "id": "customRadioListSend",
         "title": {
-          "en": "Custom radio"
+          "en": "Custom radio",
+          "nl": ""
         },
         "args": [
           {
             "name": "id",
             "type": "text",
             "placeholder": {
-              "en": "ID"
+              "en": "ID",
+              "nl": ""
             }
           },
           {
             "name": "url",
             "type": "text",
             "placeholder": {
-              "en": "URL"
+              "en": "URL",
+              "nl": ""
             }
           },
           {
@@ -1282,7 +1406,8 @@
       {
         "id": "play_toggle",
         "title": {
-          "en": "Play or Pause"
+          "en": "Play or Pause",
+          "nl": ""
         },
         "args": [
           {
@@ -1295,7 +1420,8 @@
       {
         "id": "favorite_flow_color1_bulb",
         "title": {
-          "en": "Favorite Flows"
+          "en": "Favorite Flows",
+          "nl": ""
         },
         "args": [
           {
@@ -1310,103 +1436,120 @@
               {
                 "id": "flash_notify",
                 "label": {
-                  "en": "Flash Notify"
+                  "en": "Flash Notify",
+                  "nl": ""
                 }
               },
               {
                 "id": "sunset",
                 "label": {
-                  "en": "Sunset"
+                  "en": "Sunset",
+                  "nl": ""
                 }
               },
               {
                 "id": "sunrise",
                 "label": {
-                  "en": "Sunrise"
+                  "en": "Sunrise",
+                  "nl": ""
                 }
               },
               {
                 "id": "disco",
                 "label": {
-                  "en": "Disco"
+                  "en": "Disco",
+                  "nl": ""
                 }
               },
               {
                 "id": "dating_night",
                 "label": {
-                  "en": "Dating Night"
+                  "en": "Dating Night",
+                  "nl": ""
                 }
               },
               {
                 "id": "romance",
                 "label": {
-                  "en": "Romance"
+                  "en": "Romance",
+                  "nl": ""
                 }
               },
               {
                 "id": "candle_flicker",
                 "label": {
-                  "en": "Candle Flicker"
+                  "en": "Candle Flicker",
+                  "nl": ""
                 }
               },
               {
                 "id": "happy_birthday",
                 "label": {
-                  "en": "Happy Birthday"
+                  "en": "Happy Birthday",
+                  "nl": ""
                 }
               },
               {
                 "id": "police_1",
                 "label": {
-                  "en": "Police 1"
+                  "en": "Police 1",
+                  "nl": ""
                 }
               },
               {
                 "id": "police_2",
                 "label": {
-                  "en": "Police 2"
+                  "en": "Police 2",
+                  "nl": ""
                 }
               },
               {
                 "id": "alarm",
                 "label": {
-                  "en": "Alarm"
+                  "en": "Alarm",
+                  "nl": ""
                 }
               },
               {
                 "id": "gaming",
                 "label": {
-                  "en": "Gaming"
+                  "en": "Gaming",
+                  "nl": ""
                 }
               },
               {
                 "id": "calm",
                 "label": {
-                  "en": "Calm"
+                  "en": "Calm",
+                  "nl": ""
                 }
               },
               {
                 "id": "rainbow",
                 "label": {
-                  "en": "Rainbow"
+                  "en": "Rainbow",
+                  "nl": ""
                 }
               },
               {
                 "id": "flash_notify_red",
                 "label": {
-                  "en": "Flash Notify RED"
+                  "en": "Flash Notify RED",
+                  "nl": ""
                 }
               },
               {
                 "id": "flash_notify_green",
                 "label": {
-                  "en": "Flash Notify GREEN"
+                  "en": "Flash Notify GREEN",
+                  "nl": ""
                 }
               },
               {
                 "id": "flash_notify_blue",
                 "label": {
-                  "en": "Flash Notify BLUE"
+                  "en": "Flash Notify BLUE",
+                  "nl": ""
                 }
               }
             ]
@@ -1416,7 +1559,8 @@
       {
         "id": "favorite_flow_mono1_bulb",
         "title": {
-          "en": "Favorite Flows"
+          "en": "Favorite Flows",
+          "nl": ""
         },
         "args": [
           {
@@ -1431,25 +1575,29 @@
               {
                 "id": "flash_notify_mono",
                 "label": {
-                  "en": "Flash Notify"
+                  "en": "Flash Notify",
+                  "nl": ""
                 }
               },
               {
                 "id": "sunset",
                 "label": {
-                  "en": "Sunset"
+                  "en": "Sunset",
+                  "nl": ""
                 }
               },
               {
                 "id": "sunrise",
                 "label": {
-                  "en": "Sunrise"
+                  "en": "Sunrise",
+                  "nl": ""
                 }
               },
               {
                 "id": "candle_flicker",
                 "label": {
-                  "en": "Candle Flicker"
+                  "en": "Candle Flicker",
+                  "nl": ""
                 }
               }
             ]
@@ -1459,7 +1607,8 @@
       {
         "id": "ambilight_level",
         "title": {
-          "en": "Ambilight brightness"
+          "en": "Ambilight brightness",
+          "nl": ""
         },
         "args": [
           {
@@ -1482,7 +1631,8 @@
       {
         "id": "eyecare_scene",
         "title": {
-          "en": "Eyecare scenes"
+          "en": "Eyecare scenes",
+          "nl": ""
         },
         "args": [
           {
@@ -1497,19 +1647,22 @@
               {
                 "id": "0",
                 "label": {
-                  "en": "Teens Study"
+                  "en": "Teens Study",
+                  "nl": ""
                 }
               },
               {
                 "id": "1",
                 "label": {
-                  "en": "Adults Reading"
+                  "en": "Adults Reading",
+                  "nl": ""
                 }
               },
               {
                 "id": "2",
                 "label": {
-                  "en": "Phone/Computer"
+                  "en": "Phone/Computer",
+                  "nl": ""
                 }
               }
             ]
@@ -1519,7 +1672,8 @@
       {
         "id": "favorite_flow_ceiling1_lamp",
         "title": {
-          "en": "Favorite Flows"
+          "en": "Favorite Flows",
+          "nl": ""
         },
         "args": [
           {
@@ -1534,25 +1688,29 @@
               {
                 "id": "flash_notify_mono",
                 "label": {
-                  "en": "Flash Notify"
+                  "en": "Flash Notify",
+                  "nl": ""
                 }
               },
               {
                 "id": "sunset_ceiling",
                 "label": {
-                  "en": "Sunset"
+                  "en": "Sunset",
+                  "nl": ""
                 }
               },
               {
                 "id": "sunrise_ceiling",
                 "label": {
-                  "en": "Sunrise"
+                  "en": "Sunrise",
+                  "nl": ""
                 }
               },
               {
                 "id": "candle_flicker",
                 "label": {
-                  "en": "Candle Flicker"
+                  "en": "Candle Flicker",
+                  "nl": ""
                 }
               }
             ]
@@ -1562,7 +1720,8 @@
       {
         "id": "philips_scenes",
         "title": {
-          "en": "Scenes"
+          "en": "Scenes",
+          "nl": ""
         },
         "args": [
           {
@@ -1577,25 +1736,29 @@
               {
                 "id": "1",
                 "label": {
-                  "en": "Bright"
+                  "en": "Bright",
+                  "nl": ""
                 }
               },
               {
                 "id": "2",
                 "label": {
-                  "en": "TV"
+                  "en": "TV",
+                  "nl": ""
                 }
               },
               {
                 "id": "3",
                 "label": {
-                  "en": "Warm"
+                  "en": "Warm",
+                  "nl": ""
                 }
               },
               {
                 "id": "4",
                 "label": {
-                  "en": "Midnight"
+                  "en": "Midnight",
+                  "nl": ""
                 }
               }
             ]
@@ -1605,7 +1768,8 @@
       {
         "id": "philips_light_ac",
         "title": {
-          "en": "Auto Adjust Color Temperature"
+          "en": "Auto Adjust Color Temperature",
+          "nl": ""
         },
         "args": [
           {
@@ -1620,13 +1784,15 @@
               {
                 "id": "0",
                 "label": {
-                  "en": "enable"
+                  "en": "enable",
+                  "nl": ""
                 }
               },
               {
                 "id": "1",
                 "label": {
-                  "en": "disable"
+                  "en": "disable",
+                  "nl": ""
                 }
               }
             ]
@@ -1636,7 +1802,8 @@
       {
         "id": "smoothOnOff",
         "title": {
-          "en": "Smooth on/off/toggle light"
+          "en": "Smooth on/off/toggle light",
+          "nl": ""
         },
         "args": [
           {
@@ -1652,13 +1819,15 @@
               {
                 "id": "off",
                 "label": {
-                  "en": "off"
+                  "en": "off",
+                  "nl": ""
                 }
               },
               {
                 "id": "toggle",
                 "label": {
-                  "en": "toggle"
+                  "en": "toggle",
+                  "nl": ""
                 }
               }
             ]
@@ -1667,7 +1836,8 @@
             "name": "smoothTime",
             "type": "text",
             "placeholder": {
-              "en": "seconds"
+              "en": "seconds",
+              "nl": ""
             }
           },
           {
@@ -1680,7 +1850,8 @@
       {
         "id": "purifier_on",
         "title": {
-          "en": "Power on"
+          "en": "Power on",
+          "nl": ""
         },
         "args": [
           {
@@ -1693,7 +1864,8 @@
       {
         "id": "purifier_off",
         "title": {
-          "en": "Power off"
+          "en": "Power off",
+          "nl": ""
         },
         "args": [
           {
@@ -1706,7 +1878,8 @@
       {
         "id": "purifier_mode",
         "title": {
-          "en": "Set purifier mode"
+          "en": "Set purifier mode",
+          "nl": ""
         },
         "args": [
           {
@@ -1721,19 +1894,22 @@
               {
                 "id": "auto",
                 "label": {
-                  "en": "Auto"
+                  "en": "Auto",
+                  "nl": ""
                 }
               },
               {
                 "id": "silent",
                 "label": {
-                  "en": "Silent"
+                  "en": "Silent",
+                  "nl": ""
                 }
               },
               {
                 "id": "favorite",
                 "label": {
-                  "en": "Favorite"
+                  "en": "Favorite",
+                  "nl": ""
                 }
               }
             ]
@@ -1743,7 +1919,8 @@
       {
         "id": "purifier_speed",
         "title": {
-          "en": "Set purifier speed"
+          "en": "Set purifier speed",
+          "nl": ""
         },
         "args": [
           {
@@ -1766,7 +1943,8 @@
       {
         "id": "humidifier_on",
         "title": {
-          "en": "Power on"
+          "en": "Power on",
+          "nl": ""
         },
         "args": [
           {
@@ -1779,7 +1957,8 @@
       {
         "id": "humidifier_off",
         "title": {
-          "en": "Power off"
+          "en": "Power off",
+          "nl": ""
         },
         "args": [
           {
@@ -1792,7 +1971,8 @@
       {
         "id": "humidifier_mode",
         "title": {
-          "en": "Set humidifier mode"
+          "en": "Set humidifier mode",
+          "nl": ""
         },
         "args": [
           {
@@ -1807,19 +1987,22 @@
               {
                 "id": "silent",
                 "label": {
-                  "en": "Silent"
+                  "en": "Silent",
+                  "nl": ""
                 }
               },
               {
                 "id": "medium",
                 "label": {
-                  "en": "Medium"
+                  "en": "Medium",
+                  "nl": ""
                 }
               },
               {
                 "id": "high",
                 "label": {
-                  "en": "High"
+                  "en": "High",
+                  "nl": ""
                 }
               }
             ]
@@ -1829,7 +2012,8 @@
       {
         "id": "humidifier_ca1_mode",
         "title": {
-          "en": "Set humidifier mode"
+          "en": "Set humidifier mode",
+          "nl": ""
         },
         "args": [
           {
@@ -1844,25 +2028,29 @@
               {
                 "id": "auto",
                 "label": {
-                  "en": "Auto"
+                  "en": "Auto",
+                  "nl": ""
                 }
               },
               {
                 "id": "silent",
                 "label": {
-                  "en": "Silent"
+                  "en": "Silent",
+                  "nl": ""
                 }
               },
               {
                 "id": "medium",
                 "label": {
-                  "en": "Medium"
+                  "en": "Medium",
+                  "nl": ""
                 }
               },
               {
                 "id": "high",
                 "label": {
-                  "en": "High"
+                  "en": "High",
+                  "nl": ""
                 }
               }
             ]
@@ -1872,14 +2060,16 @@
       {
         "id": "send_ir_code",
         "title": {
-          "en": "Send IR code"
+          "en": "Send IR code",
+          "nl": ""
         },
         "args": [
           {
             "name": "code",
             "type": "text",
             "placeholder": {
-              "en": "code"
+              "en": "code",
+              "nl": ""
             }
           },
           {
@@ -1892,14 +2082,16 @@
       {
         "id": "vacuumZoneCleaner",
         "title": {
-          "en": "Start zone cleaning"
+          "en": "Start zone cleaning",
+          "nl": ""
         },
         "args": [
           {
             "name": "zones",
             "type": "text",
             "placeholder": {
-              "en": "zones"
+              "en": "zones",
+              "nl": ""
             }
           },
           {
@@ -1912,21 +2104,24 @@
       {
         "id": "vacuumGoToTarget",
         "title": {
-          "en": "Send vacuum cleaner to target"
+          "en": "Send vacuum cleaner to target",
+          "nl": ""
         },
         "args": [
           {
             "name": "X",
             "type": "text",
             "placeholder": {
-              "en": "X Coordinate"
+              "en": "X Coordinate",
+              "nl": ""
             }
           },
           {
             "name": "Y",
             "type": "text",
             "placeholder": {
-              "en": "Y Coordinate"
+              "en": "Y Coordinate",
+              "nl": ""
             }
           },
           {
@@ -1939,7 +2134,8 @@
       {
         "id": "air_fresh_on",
         "title": {
-          "en": "Power on"
+          "en": "Power on",
+          "nl": ""
         },
         "args": [
           {
@@ -1952,7 +2148,8 @@
       {
         "id": "air_fresh_off",
         "title": {
-          "en": "Power off"
+          "en": "Power off",
+          "nl": ""
         },
         "args": [
           {
@@ -1965,7 +2162,8 @@
       {
         "id": "air_fresh_mode",
         "title": {
-          "en": "Set air fresh mode"
+          "en": "Set air fresh mode",
+          "nl": ""
         },
         "args": [
           {
@@ -1980,37 +2178,43 @@
               {
                 "id": "auto",
                 "label": {
-                  "en": "Auto"
+                  "en": "Auto",
+                  "nl": ""
                 }
               },
               {
                 "id": "silent",
                 "label": {
-                  "en": "Silent"
+                  "en": "Silent",
+                  "nl": ""
                 }
               },
               {
                 "id": "interval",
                 "label": {
-                  "en": "Interval"
+                  "en": "Interval",
+                  "nl": ""
                 }
               },
               {
                 "id": "low",
                 "label": {
-                  "en": "Low"
+                  "en": "Low",
+                  "nl": ""
                 }
               },
               {
                 "id": "middle",
                 "label": {
-                  "en": "Middle"
+                  "en": "Middle",
+                  "nl": ""
                 }
               },
               {
                 "id": "strong",
                 "label": {
-                  "en": "Strong"
+                  "en": "Strong",
+                  "nl": ""
                 }
               }
             ]
@@ -2020,7 +2224,8 @@
       {
         "id": "air_fresh_speed",
         "title": {
-          "en": "Set air fresh speed"
+          "en": "Set air fresh speed",
+          "nl": ""
         },
         "args": [
           {
@@ -2045,11 +2250,13 @@
   "capabilities": {
     "measure_pressure_hhmg": {
       "title": {
-        "en": "Pressure"
+        "en": "Pressure",
+        "nl": ""
       },
       "type": "number",
       "units": {
-        "en": "mm Hg"
+        "en": "mm Hg",
+        "nl": ""
       },
       "getable": true,
       "setable": false,
@@ -2057,7 +2264,8 @@
     },
     "alarm_ch4": {
       "title": {
-        "en": "Gas detected"
+        "en": "Gas detected",
+        "nl": ""
       },
       "type": "boolean",
       "getable": true,
@@ -2066,11 +2274,13 @@
     },
     "measure_gas_density": {
       "title": {
-        "en": "Gas Density"
+        "en": "Gas Density",
+        "nl": ""
       },
       "type": "number",
       "units": {
-        "en": "kg/m3"
+        "en": "kg/m3",
+        "nl": ""
       },
       "getable": true,
       "setable": false,
@@ -2078,11 +2288,13 @@
     },
     "measure_smoke_density": {
       "title": {
-        "en": "Smoke Density"
+        "en": "Smoke Density",
+        "nl": ""
       },
       "type": "number",
       "units": {
-        "en": "kg/m3"
+        "en": "kg/m3",
+        "nl": ""
       },
       "getable": true,
       "setable": false,
@@ -2090,12 +2302,14 @@
     },
     "meter_ampere": {
       "title": {
-        "en": "Ampere"
+        "en": "Ampere",
+        "nl": ""
       },
       "type": "number",
       "decimals": 2,
       "units": {
-        "en": "A"
+        "en": "A",
+        "nl": ""
       },
       "getable": true,
       "setable": false,
@@ -2104,28 +2318,33 @@
     "air_purifier_mode": {
       "type": "enum",
       "title": {
-        "en": "Air Purifier Mode"
+        "en": "Air Purifier Mode",
+        "nl": ""
       },
       "desc": {
-        "en": "Air Purifier Mode"
+        "en": "Air Purifier Mode",
+        "nl": ""
       },
       "values": [
         {
           "id": "auto",
           "title": {
-            "en": "Auto"
+            "en": "Auto",
+            "nl": ""
           }
         },
         {
           "id": "silent",
           "title": {
-            "en": "Silent"
+            "en": "Silent",
+            "nl": ""
           }
         },
         {
           "id": "favorite",
           "title": {
-            "en": "Favorite"
+            "en": "Favorite",
+            "nl": ""
           }
         }
       ],
@@ -2135,46 +2354,54 @@
     "air_fresh_mode": {
       "type": "enum",
       "title": {
-        "en": "Air Fresh Mode"
+        "en": "Air Fresh Mode",
+        "nl": ""
       },
       "desc": {
-        "en": "Air Fresh Mode"
+        "en": "Air Fresh Mode",
+        "nl": ""
       },
       "values": [
         {
           "id": "auto",
           "title": {
-            "en": "Auto"
+            "en": "Auto",
+            "nl": ""
           }
         },
         {
           "id": "silent",
           "title": {
-            "en": "Silent"
+            "en": "Silent",
+            "nl": ""
           }
         },
         {
           "id": "interval",
           "title": {
-            "en": "Interval"
+            "en": "Interval",
+            "nl": ""
           }
         },
         {
           "id": "low",
           "title": {
-            "en": "Low"
+            "en": "Low",
+            "nl": ""
           }
         },
         {
           "id": "middle",
           "title": {
-            "en": "Middle"
+            "en": "Middle",
+            "nl": ""
           }
         },
         {
           "id": "strong",
           "title": {
-            "en": "Strong"
+            "en": "Strong",
+            "nl": ""
           }
         }
       ],
@@ -2183,7 +2410,8 @@
     },
     "alarm_main_brush_work_time": {
       "title": {
-        "en": "Time left main brush"
+        "en": "Time left main brush",
+        "nl": ""
       },
       "type": "boolean",
       "getable": true,
@@ -2192,7 +2420,8 @@
     },
     "alarm_side_brush_work_time": {
       "title": {
-        "en": "Time left side brush"
+        "en": "Time left side brush",
+        "nl": ""
       },
       "type": "boolean",
       "getable": true,
@@ -2201,7 +2430,8 @@
     },
     "alarm_filter_work_time": {
       "title": {
-        "en": "Time left filter"
+        "en": "Time left filter",
+        "nl": ""
       },
       "type": "boolean",
       "getable": true,
@@ -2210,7 +2440,8 @@
     },
     "alarm_sensor_dirty_time": {
       "title": {
-        "en": "Time left sensor"
+        "en": "Time left sensor",
+        "nl": ""
       },
       "type": "boolean",
       "getable": true,
@@ -2220,28 +2451,33 @@
     "humidifier_mode": {
       "type": "enum",
       "title": {
-        "en": "Humidifier Mode"
+        "en": "Humidifier Mode",
+        "nl": ""
       },
       "desc": {
-        "en": "Humidifier Mode"
+        "en": "Humidifier Mode",
+        "nl": ""
       },
       "values": [
         {
           "id": "silent",
           "title": {
-            "en": "Silent"
+            "en": "Silent",
+            "nl": ""
           }
         },
         {
           "id": "medium",
           "title": {
-            "en": "Medium"
+            "en": "Medium",
+            "nl": ""
           }
         },
         {
           "id": "high",
           "title": {
-            "en": "High"
+            "en": "High",
+            "nl": ""
           }
         }
       ],
@@ -2251,34 +2487,40 @@
     "humidifier_ca1_mode": {
       "type": "enum",
       "title": {
-        "en": "Humidifier Mode"
+        "en": "Humidifier Mode",
+        "nl": ""
       },
       "desc": {
-        "en": "Humidifier Mode"
+        "en": "Humidifier Mode",
+        "nl": ""
       },
       "values": [
         {
           "id": "auto",
           "title": {
-            "en": "Auto"
+            "en": "Auto",
+            "nl": ""
           }
         },
         {
           "id": "silent",
           "title": {
-            "en": "Silent"
+            "en": "Silent",
+            "nl": ""
           }
         },
         {
           "id": "medium",
           "title": {
-            "en": "Medium"
+            "en": "Medium",
+            "nl": ""
           }
         },
         {
           "id": "high",
           "title": {
-            "en": "High"
+            "en": "High",
+            "nl": ""
           }
         }
       ],
@@ -2290,7 +2532,8 @@
     {
       "id": "db86_switch",
       "name": {
-        "en": "Aqara Wireless Double Switch"
+        "en": "Aqara Wireless Double Switch",
+        "nl": ""
       },
       "class": "sensor",
       "capabilities": ["measure_battery", "alarm_battery"],
@@ -2322,14 +2565,16 @@
         {
           "type": "group",
           "label": {
-            "en": "Device information"
+            "en": "Device information",
+            "nl": ""
           },
           "children": [
             {
               "id": "deviceSid",
               "type": "label",
               "label": {
-                "en": "Device sid"
+                "en": "Device sid",
+                "nl": ""
               },
               "value": "0123456789abcd"
             },
@@ -2337,7 +2582,8 @@
               "id": "deviceFromGatewaySid",
               "type": "label",
               "label": {
-                "en": "Gateway sid"
+                "en": "Gateway sid",
+                "nl": ""
               },
               "value": "0123456789ab"
             },
@@ -2345,7 +2591,8 @@
               "id": "deviceModelName",
               "type": "label",
               "label": {
-                "en": "Device model"
+                "en": "Device model",
+                "nl": ""
               },
               "value": "lumi.device"
             },
@@ -2353,7 +2600,8 @@
               "id": "deviceModelCodeName",
               "type": "label",
               "label": {
-                "en": "Device model code"
+                "en": "Device model code",
+                "nl": ""
               },
               "value": "AABBCC01LM"
             }
@@ -2384,14 +2632,16 @@
     {
       "id": "mi_motion_sensor",
       "name": {
-        "en": "Mi Motion Sensor"
+        "en": "Mi Motion Sensor",
+        "nl": ""
       },
       "class": "sensor",
       "capabilities": ["alarm_motion", "measure_battery", "alarm_battery"],
       "capabilitiesOptions": {
         "alarm_motion": {
           "title": {
-            "en": "Motion"
+            "en": "Motion",
+            "nl": ""
           }
         }
       },
@@ -2424,17 +2674,20 @@
         {
           "type": "group",
           "label": {
-            "en": "Duration of the motion alarm"
+            "en": "Duration of the motion alarm",
+            "nl": ""
           },
           "children": [
             {
               "id": "alarm_duration_number",
               "type": "number",
               "label": {
-                "en": "Disable after"
+                "en": "Disable after",
+                "nl": ""
               },
               "hint": {
-                "en": "Here you can specify after what time the alarm signal from the motion sensor will be stopped, if a motion is detected it is not detected. Usually this is for 60 seconds, you can set from 5 to 86400 seconds. \n \n Attention! Values less than 60 seconds are relevant only for independently modified sensors that have the ability to transmit information about the movement with a frequency of 5 seconds."
+                "en": "Here you can specify after what time the alarm signal from the motion sensor will be stopped, if a motion is detected it is not detected. Usually this is for 60 seconds, you can set from 5 to 86400 seconds. \n \n Attention! Values less than 60 seconds are relevant only for independently modified sensors that have the ability to transmit information about the movement with a frequency of 5 seconds.",
+                "nl": ""
               },
               "value": 60,
               "attr": {
@@ -2447,14 +2700,16 @@
         {
           "type": "group",
           "label": {
-            "en": "Device information"
+            "en": "Device information",
+            "nl": ""
           },
           "children": [
             {
               "id": "deviceSid",
               "type": "label",
               "label": {
-                "en": "Device sid"
+                "en": "Device sid",
+                "nl": ""
               },
               "value": "0123456789abcd"
             },
@@ -2462,7 +2717,8 @@
               "id": "deviceFromGatewaySid",
               "type": "label",
               "label": {
-                "en": "Gateway sid"
+                "en": "Gateway sid",
+                "nl": ""
               },
               "value": "0123456789ab"
             },
@@ -2470,7 +2726,8 @@
               "id": "deviceModelName",
               "type": "label",
               "label": {
-                "en": "Device model"
+                "en": "Device model",
+                "nl": ""
               },
               "value": "lumi.device"
             },
@@ -2478,7 +2735,8 @@
               "id": "deviceModelCodeName",
               "type": "label",
               "label": {
-                "en": "Device model code"
+                "en": "Device model code",
+                "nl": ""
               },
               "value": "AABBCC01LM"
             }
@@ -2509,14 +2767,16 @@
     {
       "id": "wleak_sensor",
       "name": {
-        "en": "Aqara Water Sensor"
+        "en": "Aqara Water Sensor",
+        "nl": ""
       },
       "class": "sensor",
       "capabilities": ["alarm_water", "measure_battery", "alarm_battery"],
       "capabilitiesOptions": {
         "alarm_water": {
           "title": {
-            "en": "Water"
+            "en": "Water",
+            "nl": ""
           }
         }
       },
@@ -2549,14 +2809,16 @@
         {
           "type": "group",
           "label": {
-            "en": "Device information"
+            "en": "Device information",
+            "nl": ""
           },
           "children": [
             {
               "id": "deviceSid",
               "type": "label",
               "label": {
-                "en": "Device sid"
+                "en": "Device sid",
+                "nl": ""
               },
               "value": "0123456789abcd"
             },
@@ -2564,7 +2826,8 @@
               "id": "deviceFromGatewaySid",
               "type": "label",
               "label": {
-                "en": "Gateway sid"
+                "en": "Gateway sid",
+                "nl": ""
               },
               "value": "0123456789ab"
             },
@@ -2572,7 +2835,8 @@
               "id": "deviceModelName",
               "type": "label",
               "label": {
-                "en": "Device model"
+                "en": "Device model",
+                "nl": ""
               },
               "value": "lumi.device"
             },
@@ -2580,7 +2844,8 @@
               "id": "deviceModelCodeName",
               "type": "label",
               "label": {
-                "en": "Device model code"
+                "en": "Device model code",
+                "nl": ""
               },
               "value": "AABBCC01LM"
             }
@@ -2611,24 +2876,28 @@
     {
       "id": "plug",
       "name": {
-        "en": "Mi Smart Plug"
+        "en": "Mi Smart Plug",
+        "nl": ""
       },
       "class": "socket",
       "capabilities": ["onoff", "meter_power", "measure_power"],
       "capabilitiesOptions": {
         "meter_power": {
           "title": {
-            "en": "KWh"
+            "en": "KWh",
+            "nl": ""
           }
         },
         "measure_power": {
           "title": {
-            "en": "Watt"
+            "en": "Watt",
+            "nl": ""
           }
         },
         "onoff": {
           "title": {
-            "en": "Power"
+            "en": "Power",
+            "nl": ""
           }
         }
       },
@@ -2658,14 +2927,16 @@
         {
           "type": "group",
           "label": {
-            "en": "Device information"
+            "en": "Device information",
+            "nl": ""
           },
           "children": [
             {
               "id": "deviceSid",
               "type": "label",
               "label": {
-                "en": "Device sid"
+                "en": "Device sid",
+                "nl": ""
               },
               "value": "0123456789abcd"
             },
@@ -2673,7 +2944,8 @@
               "id": "deviceFromGatewaySid",
               "type": "label",
               "label": {
-                "en": "Gateway sid"
+                "en": "Gateway sid",
+                "nl": ""
               },
               "value": "0123456789ab"
             },
@@ -2681,7 +2953,8 @@
               "id": "deviceModelName",
               "type": "label",
               "label": {
-                "en": "Device model"
+                "en": "Device model",
+                "nl": ""
               },
               "value": "lumi.device"
             },
@@ -2689,7 +2962,8 @@
               "id": "deviceModelCodeName",
               "type": "label",
               "label": {
-                "en": "Device model code"
+                "en": "Device model code",
+                "nl": ""
               },
               "value": "AABBCC01LM"
             }
@@ -2720,14 +2994,16 @@
     {
       "id": "magnet_sensor",
       "name": {
-        "en": "Mi Door and Window Sensor"
+        "en": "Mi Door and Window Sensor",
+        "nl": ""
       },
       "class": "sensor",
       "capabilities": ["alarm_contact", "measure_battery", "alarm_battery"],
       "capabilitiesOptions": {
         "alarm_contact": {
           "title": {
-            "en": "Open"
+            "en": "Open",
+            "nl": ""
           }
         }
       },
@@ -2760,14 +3036,16 @@
         {
           "type": "group",
           "label": {
-            "en": "Device information"
+            "en": "Device information",
+            "nl": ""
           },
           "children": [
             {
               "id": "deviceSid",
               "type": "label",
               "label": {
-                "en": "Device sid"
+                "en": "Device sid",
+                "nl": ""
               },
               "value": "0123456789abcd"
             },
@@ -2775,7 +3053,8 @@
               "id": "deviceFromGatewaySid",
               "type": "label",
               "label": {
-                "en": "Gateway sid"
+                "en": "Gateway sid",
+                "nl": ""
               },
               "value": "0123456789ab"
             },
@@ -2783,7 +3062,8 @@
               "id": "deviceModelName",
               "type": "label",
               "label": {
-                "en": "Device model"
+                "en": "Device model",
+                "nl": ""
               },
               "value": "lumi.device"
             },
@@ -2791,7 +3071,8 @@
               "id": "deviceModelCodeName",
               "type": "label",
               "label": {
-                "en": "Device model code"
+                "en": "Device model code",
+                "nl": ""
               },
               "value": "AABBCC01LM"
             }
@@ -2822,7 +3103,8 @@
     {
       "id": "button_switch",
       "name": {
-        "en": "Mi Wireless Switch"
+        "en": "Mi Wireless Switch",
+        "nl": ""
       },
       "class": "sensor",
       "capabilities": ["measure_battery", "alarm_battery"],
@@ -2858,14 +3140,16 @@
         {
           "type": "group",
           "label": {
-            "en": "Device information"
+            "en": "Device information",
+            "nl": ""
           },
           "children": [
             {
               "id": "deviceSid",
               "type": "label",
               "label": {
-                "en": "Device sid"
+                "en": "Device sid",
+                "nl": ""
               },
               "value": "0123456789abcd"
             },
@@ -2873,7 +3157,8 @@
               "id": "deviceFromGatewaySid",
               "type": "label",
               "label": {
-                "en": "Gateway sid"
+                "en": "Gateway sid",
+                "nl": ""
               },
               "value": "0123456789ab"
             },
@@ -2881,7 +3166,8 @@
               "id": "deviceModelName",
               "type": "label",
               "label": {
-                "en": "Device model"
+                "en": "Device model",
+                "nl": ""
               },
               "value": "lumi.device"
             },
@@ -2889,7 +3175,8 @@
               "id": "deviceModelCodeName",
               "type": "label",
               "label": {
-                "en": "Device model code"
+                "en": "Device model code",
+                "nl": ""
               },
               "value": "AABBCC01LM"
             }
@@ -2916,19 +3203,22 @@
     {
       "id": "temp_hum_sensor",
       "name": {
-        "en": "Mi Temperature and Humidity Sensor"
+        "en": "Mi Temperature and Humidity Sensor",
+        "nl": ""
       },
       "class": "sensor",
       "capabilities": ["measure_temperature", "measure_humidity", "measure_battery", "alarm_battery"],
       "capabilitiesOptions": {
         "measure_temperature": {
           "title": {
-            "en": "Temperature"
+            "en": "Temperature",
+            "nl": ""
           }
         },
         "measure_humidity": {
           "title": {
-            "en": "Humidity"
+            "en": "Humidity",
+            "nl": ""
           }
         }
       },
@@ -2962,14 +3252,16 @@
         {
           "type": "group",
           "label": {
-            "en": "Device information"
+            "en": "Device information",
+            "nl": ""
           },
           "children": [
             {
               "id": "deviceSid",
               "type": "label",
               "label": {
-                "en": "Device sid"
+                "en": "Device sid",
+                "nl": ""
               },
               "value": "0123456789abcd"
             },
@@ -2977,7 +3269,8 @@
               "id": "deviceFromGatewaySid",
               "type": "label",
               "label": {
-                "en": "Gateway sid"
+                "en": "Gateway sid",
+                "nl": ""
               },
               "value": "0123456789ab"
             },
@@ -2985,7 +3278,8 @@
               "id": "deviceModelName",
               "type": "label",
               "label": {
-                "en": "Device model"
+                "en": "Device model",
+                "nl": ""
               },
               "value": "lumi.device"
             },
@@ -2993,7 +3287,8 @@
               "id": "deviceModelCodeName",
               "type": "label",
               "label": {
-                "en": "Device model code"
+                "en": "Device model code",
+                "nl": ""
               },
               "value": "AABBCC01LM"
             }
@@ -3024,14 +3319,16 @@
     {
       "id": "ctrl_ln1.aq1",
       "name": {
-        "en": "Aqara Wall Switch, With Neutral, Single Rocker"
+        "en": "Aqara Wall Switch, With Neutral, Single Rocker",
+        "nl": ""
       },
       "class": "socket",
       "capabilities": ["onoff"],
       "capabilitiesOptions": {
         "onoff": {
           "title": {
-            "en": "On/Off"
+            "en": "On/Off",
+            "nl": ""
           },
           "greyout": false
         }
@@ -3058,14 +3355,16 @@
         {
           "type": "group",
           "label": {
-            "en": "Device information"
+            "en": "Device information",
+            "nl": ""
           },
           "children": [
             {
               "id": "deviceSid",
               "type": "label",
               "label": {
-                "en": "Device sid"
+                "en": "Device sid",
+                "nl": ""
               },
               "value": "0123456789abcd"
             },
@@ -3073,7 +3372,8 @@
               "id": "deviceFromGatewaySid",
               "type": "label",
               "label": {
-                "en": "Gateway sid"
+                "en": "Gateway sid",
+                "nl": ""
               },
               "value": "0123456789ab"
             },
@@ -3081,7 +3381,8 @@
               "id": "deviceModelName",
               "type": "label",
               "label": {
-                "en": "Device model"
+                "en": "Device model",
+                "nl": ""
               },
               "value": "lumi.device"
             },
@@ -3089,7 +3390,8 @@
               "id": "deviceModelCodeName",
               "type": "label",
               "label": {
-                "en": "Device model code"
+                "en": "Device model code",
+                "nl": ""
               },
               "value": "AABBCC01LM"
             }
@@ -3116,7 +3418,8 @@
     {
       "id": "sb86_switch",
       "name": {
-        "en": "Aqara Wireless Single Switch"
+        "en": "Aqara Wireless Single Switch",
+        "nl": ""
       },
       "class": "sensor",
       "capabilities": ["measure_battery", "alarm_battery"],
@@ -3152,14 +3455,16 @@
         {
           "type": "group",
           "label": {
-            "en": "Device information"
+            "en": "Device information",
+            "nl": ""
           },
           "children": [
             {
               "id": "deviceSid",
               "type": "label",
               "label": {
-                "en": "Device sid"
+                "en": "Device sid",
+                "nl": ""
               },
               "value": "0123456789abcd"
             },
@@ -3167,7 +3472,8 @@
               "id": "deviceFromGatewaySid",
               "type": "label",
               "label": {
-                "en": "Gateway sid"
+                "en": "Gateway sid",
+                "nl": ""
               },
               "value": "0123456789ab"
             },
@@ -3175,7 +3481,8 @@
               "id": "deviceModelName",
               "type": "label",
               "label": {
-                "en": "Device model"
+                "en": "Device model",
+                "nl": ""
               },
               "value": "lumi.device"
             },
@@ -3183,7 +3490,8 @@
               "id": "deviceModelCodeName",
               "type": "label",
               "label": {
-                "en": "Device model code"
+                "en": "Device model code",
+                "nl": ""
               },
               "value": "AABBCC01LM"
             }
@@ -3210,24 +3518,28 @@
     {
       "id": "ctrl_86plug.aq1",
       "name": {
-        "en": "Aqara Wall Outlet"
+        "en": "Aqara Wall Outlet",
+        "nl": ""
       },
       "class": "socket",
       "capabilities": ["onoff", "meter_power", "measure_power"],
       "capabilitiesOptions": {
         "meter_power": {
           "title": {
-            "en": "KWh"
+            "en": "KWh",
+            "nl": ""
           }
         },
         "measure_power": {
           "title": {
-            "en": "Watt"
+            "en": "Watt",
+            "nl": ""
           }
         },
         "onoff": {
           "title": {
-            "en": "Power"
+            "en": "Power",
+            "nl": ""
           }
         }
       },
@@ -3260,14 +3572,16 @@
         {
           "type": "group",
           "label": {
-            "en": "Device information"
+            "en": "Device information",
+            "nl": ""
           },
           "children": [
             {
               "id": "deviceSid",
               "type": "label",
               "label": {
-                "en": "Device sid"
+                "en": "Device sid",
+                "nl": ""
               },
               "value": "0123456789abcd"
             },
@@ -3275,7 +3589,8 @@
               "id": "deviceFromGatewaySid",
               "type": "label",
               "label": {
-                "en": "Gateway sid"
+                "en": "Gateway sid",
+                "nl": ""
               },
               "value": "0123456789ab"
             },
@@ -3283,7 +3598,8 @@
               "id": "deviceModelName",
               "type": "label",
               "label": {
-                "en": "Device model"
+                "en": "Device model",
+                "nl": ""
               },
               "value": "lumi.device"
             },
@@ -3291,7 +3607,8 @@
               "id": "deviceModelCodeName",
               "type": "label",
               "label": {
-                "en": "Device model code"
+                "en": "Device model code",
+                "nl": ""
               },
               "value": "AABBCC01LM"
             }
@@ -3322,20 +3639,23 @@
     {
       "id": "ctrl_ln2.aq1",
       "name": {
-        "en": "Aqara Wall Switch, With Neutral, Double Rocker"
+        "en": "Aqara Wall Switch, With Neutral, Double Rocker",
+        "nl": ""
       },
       "class": "light",
       "capabilities": ["onoff.1", "onoff.2"],
       "capabilitiesOptions": {
         "onoff.1": {
           "title": {
-            "en": "Left On/Off"
+            "en": "Left On/Off",
+            "nl": ""
           },
           "greyout": false
         },
         "onoff.2": {
           "title": {
-            "en": "Right On/Off"
+            "en": "Right On/Off",
+            "nl": ""
           },
           "greyout": false
         }
@@ -3369,14 +3689,16 @@
         {
           "type": "group",
           "label": {
-            "en": "Device information"
+            "en": "Device information",
+            "nl": ""
           },
           "children": [
             {
               "id": "deviceSid",
               "type": "label",
               "label": {
-                "en": "Device sid"
+                "en": "Device sid",
+                "nl": ""
               },
               "value": "0123456789abcd"
             },
@@ -3384,7 +3706,8 @@
               "id": "deviceFromGatewaySid",
               "type": "label",
               "label": {
-                "en": "Gateway sid"
+                "en": "Gateway sid",
+                "nl": ""
               },
               "value": "0123456789ab"
             },
@@ -3392,7 +3715,8 @@
               "id": "deviceModelName",
               "type": "label",
               "label": {
-                "en": "Device model"
+                "en": "Device model",
+                "nl": ""
               },
               "value": "lumi.device"
             },
@@ -3400,7 +3724,8 @@
               "id": "deviceModelCodeName",
               "type": "label",
               "label": {
-                "en": "Device model code"
+                "en": "Device model code",
+                "nl": ""
               },
               "value": "AABBCC01LM"
             }
@@ -3427,14 +3752,16 @@
     {
       "id": "ctrl_neutral1",
       "name": {
-        "en": "Aqara Wall Switch, No Neutral, Single Rocker"
+        "en": "Aqara Wall Switch, No Neutral, Single Rocker",
+        "nl": ""
       },
       "class": "socket",
       "capabilities": ["onoff"],
       "capabilitiesOptions": {
         "onoff": {
           "title": {
-            "en": "On/Off"
+            "en": "On/Off",
+            "nl": ""
           }
         }
       },
@@ -3460,14 +3787,16 @@
         {
           "type": "group",
           "label": {
-            "en": "Device information"
+            "en": "Device information",
+            "nl": ""
           },
           "children": [
             {
               "id": "deviceSid",
               "type": "label",
               "label": {
-                "en": "Device sid"
+                "en": "Device sid",
+                "nl": ""
               },
               "value": "0123456789abcd"
             },
@@ -3475,7 +3804,8 @@
               "id": "deviceFromGatewaySid",
               "type": "label",
               "label": {
-                "en": "Gateway sid"
+                "en": "Gateway sid",
+                "nl": ""
               },
               "value": "0123456789ab"
             },
@@ -3483,7 +3813,8 @@
               "id": "deviceModelName",
               "type": "label",
               "label": {
-                "en": "Device model"
+                "en": "Device model",
+                "nl": ""
               },
               "value": "lumi.device"
             },
@@ -3491,7 +3822,8 @@
               "id": "deviceModelCodeName",
               "type": "label",
               "label": {
-                "en": "Device model code"
+                "en": "Device model code",
+                "nl": ""
               },
               "value": "AABBCC01LM"
             }
@@ -3518,20 +3850,23 @@
     {
       "id": "ctrl_neutral2",
       "name": {
-        "en": "Aqara Wall Switch, No Neutral, Double Rocker"
+        "en": "Aqara Wall Switch, No Neutral, Double Rocker",
+        "nl": ""
       },
       "class": "light",
       "capabilities": ["onoff.1", "onoff.2"],
       "capabilitiesOptions": {
         "onoff.1": {
           "title": {
-            "en": "Left On/Off"
+            "en": "Left On/Off",
+            "nl": ""
           },
           "greyout": false
         },
         "onoff.2": {
           "title": {
-            "en": "Right On/Off"
+            "en": "Right On/Off",
+            "nl": ""
           },
           "greyout": false
         }
@@ -3565,14 +3900,16 @@
         {
           "type": "group",
           "label": {
-            "en": "Device information"
+            "en": "Device information",
+            "nl": ""
           },
           "children": [
             {
               "id": "deviceSid",
               "type": "label",
               "label": {
-                "en": "Device sid"
+                "en": "Device sid",
+                "nl": ""
               },
               "value": "0123456789abcd"
             },
@@ -3580,7 +3917,8 @@
               "id": "deviceFromGatewaySid",
               "type": "label",
               "label": {
-                "en": "Gateway sid"
+                "en": "Gateway sid",
+                "nl": ""
               },
               "value": "0123456789ab"
             },
@@ -3588,7 +3926,8 @@
               "id": "deviceModelName",
               "type": "label",
               "label": {
-                "en": "Device model"
+                "en": "Device model",
+                "nl": ""
               },
               "value": "lumi.device"
             },
@@ -3596,7 +3935,8 @@
               "id": "deviceModelCodeName",
               "type": "label",
               "label": {
-                "en": "Device model code"
+                "en": "Device model code",
+                "nl": ""
               },
               "value": "AABBCC01LM"
             }
@@ -3623,24 +3963,28 @@
     {
       "id": "weather_temp_hum_sensor",
       "name": {
-        "en": "Aqara Temperature and Humidity Sensor"
+        "en": "Aqara Temperature and Humidity Sensor",
+        "nl": ""
       },
       "class": "sensor",
       "capabilities": ["measure_temperature", "measure_humidity", "measure_pressure_hhmg", "measure_battery", "alarm_battery"],
       "capabilitiesOptions": {
         "measure_temperature": {
           "title": {
-            "en": "Temperature"
+            "en": "Temperature",
+            "nl": ""
           }
         },
         "measure_humidity": {
           "title": {
-            "en": "Humidity"
+            "en": "Humidity",
+            "nl": ""
           }
         },
         "measure_pressure_hhmg": {
           "title": {
-            "en": "Pressure"
+            "en": "Pressure",
+            "nl": ""
           }
         }
       },
@@ -3675,14 +4019,16 @@
         {
           "type": "group",
           "label": {
-            "en": "Device information"
+            "en": "Device information",
+            "nl": ""
           },
           "children": [
             {
               "id": "deviceSid",
               "type": "label",
               "label": {
-                "en": "Device sid"
+                "en": "Device sid",
+                "nl": ""
               },
               "value": "0123456789abcd"
             },
@@ -3690,7 +4036,8 @@
               "id": "deviceFromGatewaySid",
               "type": "label",
               "label": {
-                "en": "Gateway sid"
+                "en": "Gateway sid",
+                "nl": ""
               },
               "value": "0123456789ab"
             },
@@ -3698,7 +4045,8 @@
               "id": "deviceModelName",
               "type": "label",
               "label": {
-                "en": "Device model"
+                "en": "Device model",
+                "nl": ""
               },
               "value": "lumi.device"
             },
@@ -3706,7 +4054,8 @@
               "id": "deviceModelCodeName",
               "type": "label",
               "label": {
-                "en": "Device model code"
+                "en": "Device model code",
+                "nl": ""
               },
               "value": "AABBCC01LM"
             }
@@ -3737,14 +4086,16 @@
     {
       "id": "magnet_sensor.aq2",
       "name": {
-        "en": "Aqara Door and Window Sensor"
+        "en": "Aqara Door and Window Sensor",
+        "nl": ""
       },
       "class": "sensor",
       "capabilities": ["alarm_contact", "measure_battery", "alarm_battery"],
       "capabilitiesOptions": {
         "alarm_contact": {
           "title": {
-            "en": "Open"
+            "en": "Open",
+            "nl": ""
           }
         }
       },
@@ -3777,14 +4128,16 @@
         {
           "type": "group",
           "label": {
-            "en": "Device information"
+            "en": "Device information",
+            "nl": ""
           },
           "children": [
             {
               "id": "deviceSid",
               "type": "label",
               "label": {
-                "en": "Device sid"
+                "en": "Device sid",
+                "nl": ""
               },
               "value": "0123456789abcd"
             },
@@ -3792,7 +4145,8 @@
               "id": "deviceFromGatewaySid",
               "type": "label",
               "label": {
-                "en": "Gateway sid"
+                "en": "Gateway sid",
+                "nl": ""
               },
               "value": "0123456789ab"
             },
@@ -3800,7 +4154,8 @@
               "id": "deviceModelName",
               "type": "label",
               "label": {
-                "en": "Device model"
+                "en": "Device model",
+                "nl": ""
               },
               "value": "lumi.device"
             },
@@ -3808,7 +4163,8 @@
               "id": "deviceModelCodeName",
               "type": "label",
               "label": {
-                "en": "Device model code"
+                "en": "Device model code",
+                "nl": ""
               },
               "value": "AABBCC01LM"
             }
@@ -3839,19 +4195,22 @@
     {
       "id": "motion_sensor.aq2",
       "name": {
-        "en": "Aqara Motion Sensor"
+        "en": "Aqara Motion Sensor",
+        "nl": ""
       },
       "class": "sensor",
       "capabilities": ["alarm_motion", "measure_luminance", "measure_battery", "alarm_battery"],
       "capabilitiesOptions": {
         "alarm_motion": {
           "title": {
-            "en": "Motion"
+            "en": "Motion",
+            "nl": ""
           }
         },
         "measure_luminance": {
           "title": {
-            "en": "Lux"
+            "en": "Lux",
+            "nl": ""
           }
         }
       },
@@ -3884,17 +4243,20 @@
         {
           "type": "group",
           "label": {
-            "en": "Duration of the motion alarm"
+            "en": "Duration of the motion alarm",
+            "nl": ""
           },
           "children": [
             {
               "id": "alarm_duration_number",
               "type": "number",
               "label": {
-                "en": "Disable after"
+                "en": "Disable after",
+                "nl": ""
               },
               "hint": {
-                "en": "Here you can specify after what time the alarm signal from the motion sensor will be stopped, if a motion is detected it is not detected. Usually this is for 60 seconds, you can set from 5 to 86400 seconds. \n \n Attention! Values less than 60 seconds are relevant only for independently modified sensors that have the ability to transmit information about the movement with a frequency of 5 seconds."
+                "en": "Here you can specify after what time the alarm signal from the motion sensor will be stopped, if a motion is detected it is not detected. Usually this is for 60 seconds, you can set from 5 to 86400 seconds. \n \n Attention! Values less than 60 seconds are relevant only for independently modified sensors that have the ability to transmit information about the movement with a frequency of 5 seconds.",
+                "nl": ""
               },
               "value": 60,
               "attr": {
@@ -3907,14 +4269,16 @@
         {
           "type": "group",
           "label": {
-            "en": "Device information"
+            "en": "Device information",
+            "nl": ""
           },
           "children": [
             {
               "id": "deviceSid",
               "type": "label",
               "label": {
-                "en": "Device sid"
+                "en": "Device sid",
+                "nl": ""
               },
               "value": "0123456789abcd"
             },
@@ -3922,7 +4286,8 @@
               "id": "deviceFromGatewaySid",
               "type": "label",
               "label": {
-                "en": "Gateway sid"
+                "en": "Gateway sid",
+                "nl": ""
               },
               "value": "0123456789ab"
             },
@@ -3930,7 +4295,8 @@
               "id": "deviceModelName",
               "type": "label",
               "label": {
-                "en": "Device model"
+                "en": "Device model",
+                "nl": ""
               },
               "value": "lumi.device"
             },
@@ -3938,7 +4304,8 @@
               "id": "deviceModelCodeName",
               "type": "label",
               "label": {
-                "en": "Device model code"
+                "en": "Device model code",
+                "nl": ""
               },
               "value": "AABBCC01LM"
             }
@@ -3969,7 +4336,8 @@
     {
       "id": "cube",
       "name": {
-        "en": "Mi Cube"
+        "en": "Mi Cube",
+        "nl": ""
       },
       "class": "sensor",
       "capabilities": ["measure_battery", "alarm_battery"],
@@ -4001,14 +4369,16 @@
         {
           "type": "group",
           "label": {
-            "en": "Device information"
+            "en": "Device information",
+            "nl": ""
           },
           "children": [
             {
               "id": "deviceSid",
               "type": "label",
               "label": {
-                "en": "Device sid"
+                "en": "Device sid",
+                "nl": ""
               },
               "value": "0123456789abcd"
             },
@@ -4016,7 +4386,8 @@
               "id": "deviceFromGatewaySid",
               "type": "label",
               "label": {
-                "en": "Gateway sid"
+                "en": "Gateway sid",
+                "nl": ""
               },
               "value": "0123456789ab"
             },
@@ -4024,7 +4395,8 @@
               "id": "deviceModelName",
               "type": "label",
               "label": {
-                "en": "Device model"
+                "en": "Device model",
+                "nl": ""
               },
               "value": "lumi.device"
             },
@@ -4032,7 +4404,8 @@
               "id": "deviceModelCodeName",
               "type": "label",
               "label": {
-                "en": "Device model code"
+                "en": "Device model code",
+                "nl": ""
               },
               "value": "AABBCC01LM"
             }
@@ -4063,20 +4436,23 @@
     {
       "id": "curtain",
       "name": {
-        "en": "Aqara Curtain Motor"
+        "en": "Aqara Curtain Motor",
+        "nl": ""
       },
       "class": "windowcoverings",
       "capabilities": ["onoff", "dim", "windowcoverings_state"],
       "capabilitiesOptions": {
         "onoff": {
           "title": {
-            "en": "Open Close"
+            "en": "Open Close",
+            "nl": ""
           },
           "greyout": false
         },
         "dim": {
           "title": {
-            "en": "Level"
+            "en": "Level",
+            "nl": ""
           }
         }
       },
@@ -4118,14 +4494,16 @@
         {
           "type": "group",
           "label": {
-            "en": "Device information"
+            "en": "Device information",
+            "nl": ""
           },
           "children": [
             {
               "id": "deviceSid",
               "type": "label",
               "label": {
-                "en": "Device sid"
+                "en": "Device sid",
+                "nl": ""
               },
               "value": "0123456789abcd"
             },
@@ -4133,7 +4511,8 @@
               "id": "deviceFromGatewaySid",
               "type": "label",
               "label": {
-                "en": "Gateway sid"
+                "en": "Gateway sid",
+                "nl": ""
               },
               "value": "0123456789ab"
             },
@@ -4141,7 +4520,8 @@
               "id": "deviceModelName",
               "type": "label",
               "label": {
-                "en": "Device model"
+                "en": "Device model",
+                "nl": ""
               },
               "value": "lumi.device"
             },
@@ -4149,7 +4529,8 @@
               "id": "deviceModelCodeName",
               "type": "label",
               "label": {
-                "en": "Device model code"
+                "en": "Device model code",
+                "nl": ""
               },
               "value": "AABBCC01LM"
             }
@@ -4180,7 +4561,8 @@
     {
       "id": "button_switch.aq2",
       "name": {
-        "en": "Aqara Wireless Switch Button"
+        "en": "Aqara Wireless Switch Button",
+        "nl": ""
       },
       "class": "sensor",
       "capabilities": ["measure_battery", "alarm_battery"],
@@ -4216,14 +4598,16 @@
         {
           "type": "group",
           "label": {
-            "en": "Device information"
+            "en": "Device information",
+            "nl": ""
           },
           "children": [
             {
               "id": "deviceSid",
               "type": "label",
               "label": {
-                "en": "Device sid"
+                "en": "Device sid",
+                "nl": ""
               },
               "value": "0123456789abcd"
             },
@@ -4231,7 +4615,8 @@
               "id": "deviceFromGatewaySid",
               "type": "label",
               "label": {
-                "en": "Gateway sid"
+                "en": "Gateway sid",
+                "nl": ""
               },
               "value": "0123456789ab"
             },
@@ -4239,7 +4624,8 @@
               "id": "deviceModelName",
               "type": "label",
               "label": {
-                "en": "Device model"
+                "en": "Device model",
+                "nl": ""
               },
               "value": "lumi.device"
             },
@@ -4247,7 +4633,8 @@
               "id": "deviceModelCodeName",
               "type": "label",
               "label": {
-                "en": "Device model code"
+                "en": "Device model code",
+                "nl": ""
               },
               "value": "AABBCC01LM"
             }
@@ -4274,29 +4661,34 @@
     {
       "id": "gateway",
       "name": {
-        "en": "Xiaomi Gateway 3"
+        "en": "Xiaomi Gateway 3",
+        "nl": ""
       },
       "class": "light",
       "capabilities": ["onoff", "dim", "light_hue", "light_saturation", "measure_luminance", "button"],
       "capabilitiesOptions": {
         "onoff": {
           "title": {
-            "en": "Gateway light"
+            "en": "Gateway light",
+            "nl": ""
           }
         },
         "dim": {
           "title": {
-            "en": "Brightness"
+            "en": "Brightness",
+            "nl": ""
           }
         },
         "measure_luminance": {
           "title": {
-            "en": "Lux"
+            "en": "Lux",
+            "nl": ""
           }
         },
         "button": {
           "title": {
-            "en": "Join"
+            "en": "Join",
+            "nl": ""
           }
         }
       },
@@ -4327,17 +4719,20 @@
         {
           "type": "group",
           "label": {
-            "en": "Capability update time"
+            "en": "Capability update time",
+            "nl": ""
           },
           "children": [
             {
               "id": "update_luminance_number",
               "type": "number",
               "label": {
-                "en": "Update after"
+                "en": "Update after",
+                "nl": ""
               },
               "hint": {
-                "en": "Here you can specify the refresh interval for capabilities. Usually it is 60 seconds, you can set from 1 to 86400 seconds."
+                "en": "Here you can specify the refresh interval for capabilities. Usually it is 60 seconds, you can set from 1 to 86400 seconds.",
+                "nl": ""
               },
               "value": 60,
               "attr": {
@@ -4350,14 +4745,16 @@
         {
           "type": "group",
           "label": {
-            "en": "Device information"
+            "en": "Device information",
+            "nl": ""
           },
           "children": [
             {
               "id": "gatewaySid",
               "type": "label",
               "label": {
-                "en": "Device sid"
+                "en": "Device sid",
+                "nl": ""
               },
               "value": "0123456789abcd"
             },
@@ -4365,7 +4762,8 @@
               "id": "deviceIp",
               "type": "label",
               "label": {
-                "en": "Gateway IP"
+                "en": "Gateway IP",
+                "nl": ""
               },
               "value": "255.255.255.255"
             },
@@ -4373,7 +4771,8 @@
               "id": "deviceModelName",
               "type": "label",
               "label": {
-                "en": "Device model"
+                "en": "Device model",
+                "nl": ""
               },
               "value": "lumi.device"
             },
@@ -4381,7 +4780,8 @@
               "id": "deviceModelCodeName",
               "type": "label",
               "label": {
-                "en": "Device model code"
+                "en": "Device model code",
+                "nl": ""
               },
               "value": "AABBC01LM"
             },
@@ -4389,7 +4789,8 @@
               "id": "deviceProtoVersion",
               "type": "label",
               "label": {
-                "en": "Device proto version"
+                "en": "Device proto version",
+                "nl": ""
               },
               "value": "0.0.0"
             }
@@ -4420,14 +4821,16 @@
     {
       "id": "natgas_sensor",
       "name": {
-        "en": "MiJia Gas Leak Detector"
+        "en": "MiJia Gas Leak Detector",
+        "nl": ""
       },
       "class": "sensor",
       "capabilities": ["alarm_ch4", "measure_gas_density", "measure_battery", "alarm_battery"],
       "capabilitiesOptions": {
         "alarm_ch4": {
           "title": {
-            "en": "Gas detected"
+            "en": "Gas detected",
+            "nl": ""
           }
         }
       },
@@ -4461,17 +4864,20 @@
         {
           "type": "group",
           "label": {
-            "en": "Duration of the natural gas detected alarm"
+            "en": "Duration of the natural gas detected alarm",
+            "nl": ""
           },
           "children": [
             {
               "id": "alarm_duration_number",
               "type": "number",
               "label": {
-                "en": "Disable after"
+                "en": "Disable after",
+                "nl": ""
               },
               "hint": {
-                "en": "Here you can specify after what time the alarm signal from the natural gas sensor will be stopped, if a natural gas is detected it is not detected. Usually this is for 60 seconds, you can set from 60 to 86400 seconds."
+                "en": "Here you can specify after what time the alarm signal from the natural gas sensor will be stopped, if a natural gas is detected it is not detected. Usually this is for 60 seconds, you can set from 60 to 86400 seconds.",
+                "nl": ""
               },
               "value": 60,
               "attr": {
@@ -4484,14 +4890,16 @@
         {
           "type": "group",
           "label": {
-            "en": "Device information"
+            "en": "Device information",
+            "nl": ""
           },
           "children": [
             {
               "id": "deviceSid",
               "type": "label",
               "label": {
-                "en": "Device sid"
+                "en": "Device sid",
+                "nl": ""
               },
               "value": "0123456789abcd"
             },
@@ -4499,7 +4907,8 @@
               "id": "deviceFromGatewaySid",
               "type": "label",
               "label": {
-                "en": "Gateway sid"
+                "en": "Gateway sid",
+                "nl": ""
               },
               "value": "0123456789ab"
             },
@@ -4507,7 +4916,8 @@
               "id": "deviceModelName",
               "type": "label",
               "label": {
-                "en": "Device model"
+                "en": "Device model",
+                "nl": ""
               },
               "value": "lumi.device"
             },
@@ -4515,7 +4925,8 @@
               "id": "deviceModelCodeName",
               "type": "label",
               "label": {
-                "en": "Device model code"
+                "en": "Device model code",
+                "nl": ""
               },
               "value": "AABBCC01LM"
             }
@@ -4546,14 +4957,16 @@
     {
       "id": "smoke_sensor",
       "name": {
-        "en": "MiJia Smoke Detector"
+        "en": "MiJia Smoke Detector",
+        "nl": ""
       },
       "class": "sensor",
       "capabilities": ["alarm_smoke", "measure_smoke_density", "measure_battery", "alarm_battery"],
       "capabilitiesOptions": {
         "alarm_smoke": {
           "title": {
-            "en": "Smoke detected"
+            "en": "Smoke detected",
+            "nl": ""
           }
         }
       },
@@ -4587,17 +5000,20 @@
         {
           "type": "group",
           "label": {
-            "en": "Duration of the smoke detected alarm"
+            "en": "Duration of the smoke detected alarm",
+            "nl": ""
           },
           "children": [
             {
               "id": "alarm_duration_number",
               "type": "number",
               "label": {
-                "en": "Disable after"
+                "en": "Disable after",
+                "nl": ""
               },
               "hint": {
-                "en": "Here you can specify after what time the alarm signal from the smoke detected sensor will be stopped, if a smoke detected is detected it is not detected. Usually this is for 60 seconds, you can set from 60 to 86400 seconds."
+                "en": "Here you can specify after what time the alarm signal from the smoke detected sensor will be stopped, if a smoke detected is detected it is not detected. Usually this is for 60 seconds, you can set from 60 to 86400 seconds.",
+                "nl": ""
               },
               "value": 60,
               "attr": {
@@ -4610,14 +5026,16 @@
         {
           "type": "group",
           "label": {
-            "en": "Device information"
+            "en": "Device information",
+            "nl": ""
           },
           "children": [
             {
               "id": "deviceSid",
               "type": "label",
               "label": {
-                "en": "Device sid"
+                "en": "Device sid",
+                "nl": ""
               },
               "value": "0123456789abcd"
             },
@@ -4625,7 +5043,8 @@
               "id": "deviceFromGatewaySid",
               "type": "label",
               "label": {
-                "en": "Gateway sid"
+                "en": "Gateway sid",
+                "nl": ""
               },
               "value": "0123456789ab"
             },
@@ -4633,7 +5052,8 @@
               "id": "deviceModelName",
               "type": "label",
               "label": {
-                "en": "Device model"
+                "en": "Device model",
+                "nl": ""
               },
               "value": "lumi.device"
             },
@@ -4641,7 +5061,8 @@
               "id": "deviceModelCodeName",
               "type": "label",
               "label": {
-                "en": "Device model code"
+                "en": "Device model code",
+                "nl": ""
               },
               "value": "AABBCC01LM"
             }
@@ -4672,7 +5093,8 @@
     {
       "id": "db86_switch_advanced",
       "name": {
-        "en": "Aqara Wireless Double Switch (2018)"
+        "en": "Aqara Wireless Double Switch (2018)",
+        "nl": ""
       },
       "class": "sensor",
       "capabilities": ["measure_battery", "alarm_battery"],
@@ -4704,14 +5126,16 @@
         {
           "type": "group",
           "label": {
-            "en": "Device information"
+            "en": "Device information",
+            "nl": ""
           },
           "children": [
             {
               "id": "deviceSid",
               "type": "label",
               "label": {
-                "en": "Device sid"
+                "en": "Device sid",
+                "nl": ""
               },
               "value": "0123456789abcd"
             },
@@ -4719,7 +5143,8 @@
               "id": "deviceFromGatewaySid",
               "type": "label",
               "label": {
-                "en": "Gateway sid"
+                "en": "Gateway sid",
+                "nl": ""
               },
               "value": "0123456789ab"
             },
@@ -4727,7 +5152,8 @@
               "id": "deviceModelName",
               "type": "label",
               "label": {
-                "en": "Device model"
+                "en": "Device model",
+                "nl": ""
               },
               "value": "lumi.device"
             },
@@ -4735,7 +5161,8 @@
               "id": "deviceModelCodeName",
               "type": "label",
               "label": {
-                "en": "Device model code"
+                "en": "Device model code",
+                "nl": ""
               },
               "value": "AABBCC01LM"
             }
@@ -4766,7 +5193,8 @@
     {
       "id": "button_switch.aq3",
       "name": {
-        "en": "Aqara Wireless Switch Button (advanced)"
+        "en": "Aqara Wireless Switch Button (advanced)",
+        "nl": ""
       },
       "class": "sensor",
       "capabilities": ["measure_battery", "alarm_battery"],
@@ -4802,14 +5230,16 @@
         {
           "type": "group",
           "label": {
-            "en": "Device information"
+            "en": "Device information",
+            "nl": ""
           },
           "children": [
             {
               "id": "deviceSid",
               "type": "label",
               "label": {
-                "en": "Device sid"
+                "en": "Device sid",
+                "nl": ""
               },
               "value": "0123456789abcd"
             },
@@ -4817,7 +5247,8 @@
               "id": "deviceFromGatewaySid",
               "type": "label",
               "label": {
-                "en": "Gateway sid"
+                "en": "Gateway sid",
+                "nl": ""
               },
               "value": "0123456789ab"
             },
@@ -4825,7 +5256,8 @@
               "id": "deviceModelName",
               "type": "label",
               "label": {
-                "en": "Device model"
+                "en": "Device model",
+                "nl": ""
               },
               "value": "lumi.device"
             },
@@ -4833,7 +5265,8 @@
               "id": "deviceModelCodeName",
               "type": "label",
               "label": {
-                "en": "Device model code"
+                "en": "Device model code",
+                "nl": ""
               },
               "value": "AABBCC01LM"
             }
@@ -4860,29 +5293,34 @@
     {
       "id": "lock.aq1",
       "name": {
-        "en": "Aqara Lock"
+        "en": "Aqara Lock",
+        "nl": ""
       },
       "class": "sensor",
       "capabilities": ["alarm_motion.finger", "alarm_motion.code", "alarm_motion.card", "alarm_motion.wrongID", "measure_battery", "alarm_battery"],
       "capabilitiesOptions": {
         "alarm_motion.finger": {
           "title": {
-            "en": "Finger"
+            "en": "Finger",
+            "nl": ""
           }
         },
         "alarm_motion.code": {
           "title": {
-            "en": "Code"
+            "en": "Code",
+            "nl": ""
           }
         },
         "alarm_motion.card": {
           "title": {
-            "en": "Card"
+            "en": "Card",
+            "nl": ""
           }
         },
         "alarm_motion.wrongID": {
           "title": {
-            "en": "Wrong ID"
+            "en": "Wrong ID",
+            "nl": ""
           }
         }
       },
@@ -4918,17 +5356,20 @@
         {
           "type": "group",
           "label": {
-            "en": "Alarm duration for lock status"
+            "en": "Alarm duration for lock status",
+            "nl": ""
           },
           "children": [
             {
               "id": "alarm_duration_number",
               "type": "number",
               "label": {
-                "en": "Disable after"
+                "en": "Disable after",
+                "nl": ""
               },
               "hint": {
-                "en": "Here you can specify after what time the alarm signal from the motion sensor will be stopped, if a motion is detected it is not detected. Usually this is for 60 seconds, you can set from 60 to 86400 seconds."
+                "en": "Here you can specify after what time the alarm signal from the motion sensor will be stopped, if a motion is detected it is not detected. Usually this is for 60 seconds, you can set from 60 to 86400 seconds.",
+                "nl": ""
               },
               "value": 60,
               "attr": {
@@ -4941,14 +5382,16 @@
         {
           "type": "group",
           "label": {
-            "en": "Device information"
+            "en": "Device information",
+            "nl": ""
           },
           "children": [
             {
               "id": "deviceSid",
               "type": "label",
               "label": {
-                "en": "Device sid"
+                "en": "Device sid",
+                "nl": ""
               },
               "value": "0123456789abcd"
             },
@@ -4956,7 +5399,8 @@
               "id": "deviceFromGatewaySid",
               "type": "label",
               "label": {
-                "en": "Gateway sid"
+                "en": "Gateway sid",
+                "nl": ""
               },
               "value": "0123456789ab"
             },
@@ -4964,7 +5408,8 @@
               "id": "deviceModelName",
               "type": "label",
               "label": {
-                "en": "Device model"
+                "en": "Device model",
+                "nl": ""
               },
               "value": "lumi.device"
             },
@@ -4972,7 +5417,8 @@
               "id": "deviceModelCodeName",
               "type": "label",
               "label": {
-                "en": "Device model code"
+                "en": "Device model code",
+                "nl": ""
               },
               "value": "AABBCC01LM"
             }
@@ -4981,14 +5427,16 @@
         {
           "type": "group",
           "label": {
-            "en": "Lock users"
+            "en": "Lock users",
+            "nl": ""
           },
           "children": [
             {
               "id": "lock0UserName",
               "type": "text",
               "label": {
-                "en": "1 - User name"
+                "en": "1 - User name",
+                "nl": ""
               },
               "value": ""
             },
@@ -4996,7 +5444,8 @@
               "id": "user0FingerID",
               "type": "text",
               "label": {
-                "en": "Finger ID"
+                "en": "Finger ID",
+                "nl": ""
               },
               "value": ""
             },
@@ -5004,7 +5453,8 @@
               "id": "user0CodeID",
               "type": "text",
               "label": {
-                "en": "Code ID"
+                "en": "Code ID",
+                "nl": ""
               },
               "value": ""
             },
@@ -5012,7 +5462,8 @@
               "id": "user0CardID",
               "type": "text",
               "label": {
-                "en": "Card ID"
+                "en": "Card ID",
+                "nl": ""
               },
               "value": ""
             },
@@ -5020,7 +5471,8 @@
               "id": "lock1UserName",
               "type": "text",
               "label": {
-                "en": "2 - User name"
+                "en": "2 - User name",
+                "nl": ""
               },
               "value": ""
             },
@@ -5028,7 +5480,8 @@
               "id": "user1FingerID",
               "type": "text",
               "label": {
-                "en": "Finger ID"
+                "en": "Finger ID",
+                "nl": ""
               },
               "value": ""
             },
@@ -5036,7 +5489,8 @@
               "id": "user1CodeID",
               "type": "text",
               "label": {
-                "en": "Code ID"
+                "en": "Code ID",
+                "nl": ""
               },
               "value": ""
             },
@@ -5044,7 +5498,8 @@
               "id": "user1CardID",
               "type": "text",
               "label": {
-                "en": "Card ID"
+                "en": "Card ID",
+                "nl": ""
               },
               "value": ""
             },
@@ -5052,7 +5507,8 @@
               "id": "lock2UserName",
               "type": "text",
               "label": {
-                "en": "3 - User name"
+                "en": "3 - User name",
+                "nl": ""
               },
               "value": ""
             },
@@ -5060,7 +5516,8 @@
               "id": "user2FingerID",
               "type": "text",
               "label": {
-                "en": "Finger ID"
+                "en": "Finger ID",
+                "nl": ""
               },
               "value": ""
             },
@@ -5068,7 +5525,8 @@
               "id": "user2CodeID",
               "type": "text",
               "label": {
-                "en": "Code ID"
+                "en": "Code ID",
+                "nl": ""
               },
               "value": ""
             },
@@ -5076,7 +5534,8 @@
               "id": "user2CardID",
               "type": "text",
               "label": {
-                "en": "Card ID"
+                "en": "Card ID",
+                "nl": ""
               },
               "value": ""
             },
@@ -5084,7 +5543,8 @@
               "id": "lock3UserName",
               "type": "text",
               "label": {
-                "en": "4 - User name"
+                "en": "4 - User name",
+                "nl": ""
               },
               "value": ""
             },
@@ -5092,7 +5552,8 @@
               "id": "user3FingerID",
               "type": "text",
               "label": {
-                "en": "Finger ID"
+                "en": "Finger ID",
+                "nl": ""
               },
               "value": ""
             },
@@ -5100,7 +5561,8 @@
               "id": "user3CodeID",
               "type": "text",
               "label": {
-                "en": "Code ID"
+                "en": "Code ID",
+                "nl": ""
               },
               "value": ""
             },
@@ -5108,7 +5570,8 @@
               "id": "user3CardID",
               "type": "text",
               "label": {
-                "en": "Card ID"
+                "en": "Card ID",
+                "nl": ""
               },
               "value": ""
             },
@@ -5116,7 +5579,8 @@
               "id": "lock4UserName",
               "type": "text",
               "label": {
-                "en": "5 - User name"
+                "en": "5 - User name",
+                "nl": ""
               },
               "value": ""
             },
@@ -5124,7 +5588,8 @@
               "id": "user4FingerID",
               "type": "text",
               "label": {
-                "en": "Finger ID"
+                "en": "Finger ID",
+                "nl": ""
               },
               "value": ""
             },
@@ -5132,7 +5597,8 @@
               "id": "user4CodeID",
               "type": "text",
               "label": {
-                "en": "Code ID"
+                "en": "Code ID",
+                "nl": ""
               },
               "value": ""
             },
@@ -5140,7 +5606,8 @@
               "id": "user4CardID",
               "type": "text",
               "label": {
-                "en": "Card ID"
+                "en": "Card ID",
+                "nl": ""
               },
               "value": ""
             },
@@ -5148,7 +5615,8 @@
               "id": "lock5UserName",
               "type": "text",
               "label": {
-                "en": "6 - User name"
+                "en": "6 - User name",
+                "nl": ""
               },
               "value": ""
             },
@@ -5156,7 +5624,8 @@
               "id": "user5FingerID",
               "type": "text",
               "label": {
-                "en": "Finger ID"
+                "en": "Finger ID",
+                "nl": ""
               },
               "value": ""
             },
@@ -5164,7 +5633,8 @@
               "id": "user5CodeID",
               "type": "text",
               "label": {
-                "en": "Code ID"
+                "en": "Code ID",
+                "nl": ""
               },
               "value": ""
             },
@@ -5172,7 +5642,8 @@
               "id": "user5CardID",
               "type": "text",
               "label": {
-                "en": "Card ID"
+                "en": "Card ID",
+                "nl": ""
               },
               "value": ""
             },
@@ -5180,7 +5651,8 @@
               "id": "lock6UserName",
               "type": "text",
               "label": {
-                "en": "7 - User name"
+                "en": "7 - User name",
+                "nl": ""
               },
               "value": ""
             },
@@ -5188,7 +5660,8 @@
               "id": "user6FingerID",
               "type": "text",
               "label": {
-                "en": "Finger ID"
+                "en": "Finger ID",
+                "nl": ""
               },
               "value": ""
             },
@@ -5196,7 +5669,8 @@
               "id": "user6CodeID",
               "type": "text",
               "label": {
-                "en": "Code ID"
+                "en": "Code ID",
+                "nl": ""
               },
               "value": ""
             },
@@ -5204,7 +5678,8 @@
               "id": "user6CardID",
               "type": "text",
               "label": {
-                "en": "Card ID"
+                "en": "Card ID",
+                "nl": ""
               },
               "value": ""
             },
@@ -5212,7 +5687,8 @@
               "id": "lock7UserName",
               "type": "text",
               "label": {
-                "en": "8 - User name"
+                "en": "8 - User name",
+                "nl": ""
               },
               "value": ""
             },
@@ -5220,7 +5696,8 @@
               "id": "user7FingerID",
               "type": "text",
               "label": {
-                "en": "Finger ID"
+                "en": "Finger ID",
+                "nl": ""
               },
               "value": ""
             },
@@ -5228,7 +5705,8 @@
               "id": "user7CodeID",
               "type": "text",
               "label": {
-                "en": "Code ID"
+                "en": "Code ID",
+                "nl": ""
               },
               "value": ""
             },
@@ -5236,7 +5714,8 @@
               "id": "user7CardID",
               "type": "text",
               "label": {
-                "en": "Card ID"
+                "en": "Card ID",
+                "nl": ""
               },
               "value": ""
             },
@@ -5244,7 +5723,8 @@
               "id": "lock8UserName",
               "type": "text",
               "label": {
-                "en": "9 - User name"
+                "en": "9 - User name",
+                "nl": ""
               },
               "value": ""
             },
@@ -5252,7 +5732,8 @@
               "id": "user8FingerID",
               "type": "text",
               "label": {
-                "en": "Finger ID"
+                "en": "Finger ID",
+                "nl": ""
               },
               "value": ""
             },
@@ -5260,7 +5741,8 @@
               "id": "user8CodeID",
               "type": "text",
               "label": {
-                "en": "Code ID"
+                "en": "Code ID",
+                "nl": ""
               },
               "value": ""
             },
@@ -5268,7 +5750,8 @@
               "id": "user8CardID",
               "type": "text",
               "label": {
-                "en": "Card ID"
+                "en": "Card ID",
+                "nl": ""
               },
               "value": ""
             },
@@ -5276,7 +5759,8 @@
               "id": "lock9UserName",
               "type": "text",
               "label": {
-                "en": "10 - User name"
+                "en": "10 - User name",
+                "nl": ""
               },
               "value": ""
             },
@@ -5284,7 +5768,8 @@
               "id": "user9FingerID",
               "type": "text",
               "label": {
-                "en": "Finger ID"
+                "en": "Finger ID",
+                "nl": ""
               },
               "value": ""
             },
@@ -5292,7 +5777,8 @@
               "id": "user9CodeID",
               "type": "text",
               "label": {
-                "en": "Code ID"
+                "en": "Code ID",
+                "nl": ""
               },
               "value": ""
             },
@@ -5300,7 +5786,8 @@
               "id": "user9CardID",
               "type": "text",
               "label": {
-                "en": "Card ID"
+                "en": "Card ID",
+                "nl": ""
               },
               "value": ""
             }
@@ -5331,29 +5818,34 @@
     {
       "id": "gateway_radio",
       "name": {
-        "en": "Xiaomi Gateway 3 Radio"
+        "en": "Xiaomi Gateway 3 Radio",
+        "nl": ""
       },
       "class": "speaker",
       "capabilities": [],
       "capabilitiesOptions": {
         "speaker_playing": {
           "title": {
-            "en": "Radio"
+            "en": "Radio",
+            "nl": ""
           }
         },
         "volume_set": {
           "title": {
-            "en": "Volume"
+            "en": "Volume",
+            "nl": ""
           }
         },
         "speaker_prev": {
           "title": {
-            "en": "Prev"
+            "en": "Prev",
+            "nl": ""
           }
         },
         "speaker_next": {
           "title": {
-            "en": "Next"
+            "en": "Next",
+            "nl": ""
           }
         }
       },
@@ -5389,7 +5881,8 @@
         {
           "type": "group",
           "label": {
-            "en": "Gateway settings"
+            "en": "Gateway settings",
+            "nl": ""
           },
           "children": [
             {
@@ -5397,7 +5890,8 @@
               "type": "text",
               "value": "192.168.xxx.xxx",
               "label": {
-                "en": "IP Address"
+                "en": "IP Address",
+                "nl": ""
               }
             },
             {
@@ -5405,7 +5899,8 @@
               "type": "text",
               "value": "",
               "label": {
-                "en": "Gateway Token"
+                "en": "Gateway Token",
+                "nl": ""
               }
             },
             {
@@ -5417,7 +5912,8 @@
                 "max": 3600
               },
               "label": {
-                "en": "Gateway update timer"
+                "en": "Gateway update timer",
+                "nl": ""
               }
             }
           ]
@@ -5425,7 +5921,8 @@
         {
           "type": "group",
           "label": {
-            "en": "Gateway favorite radio list"
+            "en": "Gateway favorite radio list",
+            "nl": ""
           },
           "children": [
             {
@@ -5433,7 +5930,8 @@
               "type": "text",
               "value": "",
               "label": {
-                "en": "1 - Favorite Radio"
+                "en": "1 - Favorite Radio",
+                "nl": ""
               }
             },
             {
@@ -5441,7 +5939,8 @@
               "type": "text",
               "value": "",
               "label": {
-                "en": "2 - Favorite Radio"
+                "en": "2 - Favorite Radio",
+                "nl": ""
               }
             },
             {
@@ -5449,7 +5948,8 @@
               "type": "text",
               "value": "",
               "label": {
-                "en": "3 - Favorite Radio"
+                "en": "3 - Favorite Radio",
+                "nl": ""
               }
             },
             {
@@ -5457,7 +5957,8 @@
               "type": "text",
               "value": "",
               "label": {
-                "en": "4 - Favorite Radio"
+                "en": "4 - Favorite Radio",
+                "nl": ""
               }
             },
             {
@@ -5465,7 +5966,8 @@
               "type": "text",
               "value": "",
               "label": {
-                "en": "5 - Favorite Radio"
+                "en": "5 - Favorite Radio",
+                "nl": ""
               }
             },
             {
@@ -5473,7 +5975,8 @@
               "type": "text",
               "value": "",
               "label": {
-                "en": "6 - Favorite Radio"
+                "en": "6 - Favorite Radio",
+                "nl": ""
               }
             },
             {
@@ -5481,7 +5984,8 @@
               "type": "text",
               "value": "",
               "label": {
-                "en": "7 - Favorite Radio"
+                "en": "7 - Favorite Radio",
+                "nl": ""
               }
             },
             {
@@ -5489,7 +5993,8 @@
               "type": "text",
               "value": "",
               "label": {
-                "en": "8 - Favorite Radio"
+                "en": "8 - Favorite Radio",
+                "nl": ""
               }
             },
             {
@@ -5497,7 +6002,8 @@
               "type": "text",
               "value": "",
               "label": {
-                "en": "9 - Favorite Radio"
+                "en": "9 - Favorite Radio",
+                "nl": ""
               }
             },
             {
@@ -5505,7 +6011,8 @@
               "type": "text",
               "value": "",
               "label": {
-                "en": "10 - Favorite Radio"
+                "en": "10 - Favorite Radio",
+                "nl": ""
               }
             },
             {
@@ -5513,7 +6020,8 @@
               "type": "text",
               "value": "",
               "label": {
-                "en": "11 - Favorite Radio"
+                "en": "11 - Favorite Radio",
+                "nl": ""
               }
             },
             {
@@ -5521,7 +6029,8 @@
               "type": "text",
               "value": "",
               "label": {
-                "en": "12 - Favorite Radio"
+                "en": "12 - Favorite Radio",
+                "nl": ""
               }
             },
             {
@@ -5529,7 +6038,8 @@
               "type": "text",
               "value": "",
               "label": {
-                "en": "13 - Favorite Radio"
+                "en": "13 - Favorite Radio",
+                "nl": ""
               }
             },
             {
@@ -5537,7 +6047,8 @@
               "type": "text",
               "value": "",
               "label": {
-                "en": "14 - Favorite Radio"
+                "en": "14 - Favorite Radio",
+                "nl": ""
               }
             },
             {
@@ -5545,7 +6056,8 @@
               "type": "text",
               "value": "",
               "label": {
-                "en": "15 - Favorite Radio"
+                "en": "15 - Favorite Radio",
+                "nl": ""
               }
             },
             {
@@ -5553,7 +6065,8 @@
               "type": "text",
               "value": "",
               "label": {
-                "en": "16 - Favorite Radio"
+                "en": "16 - Favorite Radio",
+                "nl": ""
               }
             },
             {
@@ -5561,7 +6074,8 @@
               "type": "text",
               "value": "",
               "label": {
-                "en": "17 - Favorite Radio"
+                "en": "17 - Favorite Radio",
+                "nl": ""
               }
             },
             {
@@ -5569,7 +6083,8 @@
               "type": "text",
               "value": "",
               "label": {
-                "en": "18 - Favorite Radio"
+                "en": "18 - Favorite Radio",
+                "nl": ""
               }
             },
             {
@@ -5577,7 +6092,8 @@
               "type": "text",
               "value": "",
               "label": {
-                "en": "19 - Favorite Radio"
+                "en": "19 - Favorite Radio",
+                "nl": ""
               }
             },
             {
@@ -5585,7 +6101,8 @@
               "type": "text",
               "value": "",
               "label": {
-                "en": "20 - Favorite Radio"
+                "en": "20 - Favorite Radio",
+                "nl": ""
               }
             }
           ]
@@ -5613,14 +6130,16 @@
     {
       "id": "gateway_security",
       "name": {
-        "en": "Xiaomi Gateway Security"
+        "en": "Xiaomi Gateway Security",
+        "nl": ""
       },
       "class": "homealarm",
       "capabilities": ["homealarm_state"],
       "capabilitiesOptions": {
         "homealarm_state": {
           "title": {
-            "en": "Security"
+            "en": "Security",
+            "nl": ""
           }
         }
       },
@@ -5639,7 +6158,8 @@
         {
           "type": "group",
           "label": {
-            "en": "Gateway settings"
+            "en": "Gateway settings",
+            "nl": ""
           },
           "children": [
             {
@@ -5647,7 +6167,8 @@
               "type": "text",
               "value": "192.168.xxx.xxx",
               "label": {
-                "en": "IP Address"
+                "en": "IP Address",
+                "nl": ""
               }
             },
             {
@@ -5655,7 +6176,8 @@
               "type": "text",
               "value": "",
               "label": {
-                "en": "Gateway Token"
+                "en": "Gateway Token",
+                "nl": ""
               }
             },
             {
@@ -5667,7 +6189,8 @@
                 "max": 3600
               },
               "label": {
-                "en": "Gateway update timer"
+                "en": "Gateway update timer",
+                "nl": ""
               }
             }
           ]
@@ -5695,24 +6218,28 @@
     {
       "id": "vibration_sensor",
       "name": {
-        "en": "Aqara Vibration Sensor"
+        "en": "Aqara Vibration Sensor",
+        "nl": ""
       },
       "class": "sensor",
       "capabilities": ["alarm_motion.vibrate", "alarm_motion.tilt", "alarm_motion.freeFall", "measure_battery", "alarm_battery"],
       "capabilitiesOptions": {
         "alarm_motion.vibrate": {
           "title": {
-            "en": "Vibrate"
+            "en": "Vibrate",
+            "nl": ""
           }
         },
         "alarm_motion.tilt": {
           "title": {
-            "en": "Tilt"
+            "en": "Tilt",
+            "nl": ""
           }
         },
         "alarm_motion.freeFall": {
           "title": {
-            "en": "Free fall"
+            "en": "Free fall",
+            "nl": ""
           }
         }
       },
@@ -5747,17 +6274,20 @@
         {
           "type": "group",
           "label": {
-            "en": "Duration of the sensor alarm"
+            "en": "Duration of the sensor alarm",
+            "nl": ""
           },
           "children": [
             {
               "id": "alarm_duration_number",
               "type": "number",
               "label": {
-                "en": "Disable after"
+                "en": "Disable after",
+                "nl": ""
               },
               "hint": {
-                "en": "Here you can specify after what time the alarm signal from the vibration sensor will be stopped, if a vibration, tilt, free fall is detected it is not detected. Usually this is for 60 seconds, you can set from 60 to 86400 seconds."
+                "en": "Here you can specify after what time the alarm signal from the vibration sensor will be stopped, if a vibration, tilt, free fall is detected it is not detected. Usually this is for 60 seconds, you can set from 60 to 86400 seconds.",
+                "nl": ""
               },
               "value": 60,
               "attr": {
@@ -5770,14 +6300,16 @@
         {
           "type": "group",
           "label": {
-            "en": "Device information"
+            "en": "Device information",
+            "nl": ""
           },
           "children": [
             {
               "id": "deviceSid",
               "type": "label",
               "label": {
-                "en": "Device sid"
+                "en": "Device sid",
+                "nl": ""
               },
               "value": "0123456789abcd"
             },
@@ -5785,7 +6317,8 @@
               "id": "deviceFromGatewaySid",
               "type": "label",
               "label": {
-                "en": "Gateway sid"
+                "en": "Gateway sid",
+                "nl": ""
               },
               "value": "0123456789ab"
             },
@@ -5793,7 +6326,8 @@
               "id": "deviceModelName",
               "type": "label",
               "label": {
-                "en": "Device model"
+                "en": "Device model",
+                "nl": ""
               },
               "value": "lumi.device"
             },
@@ -5801,7 +6335,8 @@
               "id": "deviceModelCodeName",
               "type": "label",
               "label": {
-                "en": "Device model code"
+                "en": "Device model code",
+                "nl": ""
               },
               "value": "AABBCC01LM"
             }
@@ -5832,19 +6367,22 @@
     {
       "id": "yeelight_light_color1",
       "name": {
-        "en": "Yeelight Color Bulb"
+        "en": "Yeelight Color Bulb",
+        "nl": ""
       },
       "class": "light",
       "capabilities": ["onoff", "dim", "light_hue", "light_saturation", "light_temperature", "light_mode"],
       "capabilitiesOptions": {
         "onoff": {
           "title": {
-            "en": "Power"
+            "en": "Power",
+            "nl": ""
           }
         },
         "dim": {
           "title": {
-            "en": "Brightness"
+            "en": "Brightness",
+            "nl": ""
           }
         }
       },
@@ -5871,7 +6409,8 @@
         {
           "type": "group",
           "label": {
-            "en": "Yeelight Color Bulb settings"
+            "en": "Yeelight Color Bulb settings",
+            "nl": ""
           },
           "children": [
             {
@@ -5879,7 +6418,8 @@
               "type": "text",
               "value": "192.168.xxx.xxx",
               "label": {
-                "en": "IP Address"
+                "en": "IP Address",
+                "nl": ""
               }
             },
             {
@@ -5887,7 +6427,8 @@
               "type": "text",
               "value": "",
               "label": {
-                "en": "Device Token"
+                "en": "Device Token",
+                "nl": ""
               }
             },
             {
@@ -5895,7 +6436,8 @@
               "type": "number",
               "value": 0.5,
               "label": {
-                "en": "Light on/off smooth"
+                "en": "Light on/off smooth",
+                "nl": ""
               },
               "attr": {
                 "min": 0.1,
@@ -5911,7 +6453,8 @@
                 "max": 3600
               },
               "label": {
-                "en": "Device update timer"
+                "en": "Device update timer",
+                "nl": ""
               }
             }
           ]
@@ -5939,19 +6482,22 @@
     {
       "id": "yeelight_light_mono1",
       "name": {
-        "en": "Yeelight White Bulb"
+        "en": "Yeelight White Bulb",
+        "nl": ""
       },
       "class": "light",
       "capabilities": ["onoff", "dim"],
       "capabilitiesOptions": {
         "onoff": {
           "title": {
-            "en": "Power"
+            "en": "Power",
+            "nl": ""
           }
         },
         "dim": {
           "title": {
-            "en": "Brightness"
+            "en": "Brightness",
+            "nl": ""
           }
         }
       },
@@ -5974,7 +6520,8 @@
         {
           "type": "group",
           "label": {
-            "en": "Yeelight White Bulb settings"
+            "en": "Yeelight White Bulb settings",
+            "nl": ""
           },
           "children": [
             {
@@ -5982,7 +6529,8 @@
               "type": "text",
               "value": "192.168.xxx.xxx",
               "label": {
-                "en": "IP Address"
+                "en": "IP Address",
+                "nl": ""
               }
             },
             {
@@ -5990,7 +6538,8 @@
               "type": "text",
               "value": "",
               "label": {
-                "en": "Device Token"
+                "en": "Device Token",
+                "nl": ""
               }
             },
             {
@@ -6002,7 +6551,8 @@
                 "max": 3600
               },
               "label": {
-                "en": "Device update timer"
+                "en": "Device update timer",
+                "nl": ""
               }
             }
           ]
@@ -6030,19 +6580,22 @@
     {
       "id": "yeelight_light_ceiling1",
       "name": {
-        "en": "Yeelight Ceiling Lamp"
+        "en": "Yeelight Ceiling Lamp",
+        "nl": ""
       },
       "class": "light",
       "capabilities": ["onoff", "dim", "light_temperature"],
       "capabilitiesOptions": {
         "onoff": {
           "title": {
-            "en": "Power"
+            "en": "Power",
+            "nl": ""
           }
         },
         "dim": {
           "title": {
-            "en": "Brightness"
+            "en": "Brightness",
+            "nl": ""
           }
         }
       },
@@ -6069,7 +6622,8 @@
         {
           "type": "group",
           "label": {
-            "en": "Yeelight Ceiling Lamp settings"
+            "en": "Yeelight Ceiling Lamp settings",
+            "nl": ""
           },
           "children": [
             {
@@ -6077,7 +6631,8 @@
               "type": "text",
               "value": "192.168.xxx.xxx",
               "label": {
-                "en": "IP Address"
+                "en": "IP Address",
+                "nl": ""
               }
             },
             {
@@ -6085,7 +6640,8 @@
               "type": "text",
               "value": "",
               "label": {
-                "en": "Device Token"
+                "en": "Device Token",
+                "nl": ""
               }
             },
             {
@@ -6097,7 +6653,8 @@
                 "max": 3600
               },
               "label": {
-                "en": "Device update timer"
+                "en": "Device update timer",
+                "nl": ""
               }
             }
           ]
@@ -6125,19 +6682,22 @@
     {
       "id": "yeelight_light_ceiling3",
       "name": {
-        "en": "Yeelight Jiaoyue 450"
+        "en": "Yeelight Jiaoyue 450",
+        "nl": ""
       },
       "class": "light",
       "capabilities": ["onoff", "dim", "light_temperature"],
       "capabilitiesOptions": {
         "onoff": {
           "title": {
-            "en": "Power"
+            "en": "Power",
+            "nl": ""
           }
         },
         "dim": {
           "title": {
-            "en": "Brightness"
+            "en": "Brightness",
+            "nl": ""
           }
         }
       },
@@ -6164,7 +6724,8 @@
         {
           "type": "group",
           "label": {
-            "en": "Yeelight Ceiling Lamp settings"
+            "en": "Yeelight Ceiling Lamp settings",
+            "nl": ""
           },
           "children": [
             {
@@ -6172,7 +6733,8 @@
               "type": "text",
               "value": "192.168.xxx.xxx",
               "label": {
-                "en": "IP Address"
+                "en": "IP Address",
+                "nl": ""
               }
             },
             {
@@ -6180,7 +6742,8 @@
               "type": "text",
               "value": "",
               "label": {
-                "en": "Device Token"
+                "en": "Device Token",
+                "nl": ""
               }
             },
             {
@@ -6188,7 +6751,8 @@
               "type": "number",
               "value": 0.5,
               "label": {
-                "en": "Light on/off smooth"
+                "en": "Light on/off smooth",
+                "nl": ""
               },
               "attr": {
                 "min": 0.1,
@@ -6204,7 +6768,8 @@
                 "max": 3600
               },
               "label": {
-                "en": "Device update timer"
+                "en": "Device update timer",
+                "nl": ""
               }
             }
           ]
@@ -6232,19 +6797,22 @@
     {
       "id": "yeelight_light_bslamp1",
       "name": {
-        "en": "Yeelight Bedside Lamp"
+        "en": "Yeelight Bedside Lamp",
+        "nl": ""
       },
       "class": "light",
       "capabilities": ["onoff", "dim", "light_hue", "light_saturation", "light_temperature", "light_mode"],
       "capabilitiesOptions": {
         "onoff": {
           "title": {
-            "en": "Power"
+            "en": "Power",
+            "nl": ""
           }
         },
         "dim": {
           "title": {
-            "en": "Brightness"
+            "en": "Brightness",
+            "nl": ""
           }
         }
       },
@@ -6271,7 +6839,8 @@
         {
           "type": "group",
           "label": {
-            "en": "Yeelight Bedside Lamp settings"
+            "en": "Yeelight Bedside Lamp settings",
+            "nl": ""
           },
           "children": [
             {
@@ -6279,7 +6848,8 @@
               "type": "text",
               "value": "192.168.xxx.xxx",
               "label": {
-                "en": "IP Address"
+                "en": "IP Address",
+                "nl": ""
               }
             },
             {
@@ -6287,7 +6857,8 @@
               "type": "text",
               "value": "",
               "label": {
-                "en": "Device Token"
+                "en": "Device Token",
+                "nl": ""
               }
             },
             {
@@ -6299,7 +6870,8 @@
                 "max": 3600
               },
               "label": {
-                "en": "Device update timer"
+                "en": "Device update timer",
+                "nl": ""
               }
             }
           ]
@@ -6327,19 +6899,22 @@
     {
       "id": "yeelight_light_strip1",
       "name": {
-        "en": "Yeelight Light Strip"
+        "en": "Yeelight Light Strip",
+        "nl": ""
       },
       "class": "light",
       "capabilities": ["onoff", "dim", "light_hue", "light_saturation", "light_temperature", "light_mode"],
       "capabilitiesOptions": {
         "onoff": {
           "title": {
-            "en": "Power"
+            "en": "Power",
+            "nl": ""
           }
         },
         "dim": {
           "title": {
-            "en": "Brightness"
+            "en": "Brightness",
+            "nl": ""
           }
         }
       },
@@ -6366,7 +6941,8 @@
         {
           "type": "group",
           "label": {
-            "en": "Yeelight Light Strip settings"
+            "en": "Yeelight Light Strip settings",
+            "nl": ""
           },
           "children": [
             {
@@ -6374,7 +6950,8 @@
               "type": "text",
               "value": "192.168.xxx.xxx",
               "label": {
-                "en": "IP Address"
+                "en": "IP Address",
+                "nl": ""
               }
             },
             {
@@ -6382,7 +6959,8 @@
               "type": "text",
               "value": "",
               "label": {
-                "en": "Device Token"
+                "en": "Device Token",
+                "nl": ""
               }
             },
             {
@@ -6394,7 +6972,8 @@
                 "max": 3600
               },
               "label": {
-                "en": "Device update timer"
+                "en": "Device update timer",
+                "nl": ""
               }
             }
           ]
@@ -6422,19 +7001,22 @@
     {
       "id": "yeelight_light_lamp1",
       "name": {
-        "en": "Mi LED Desk Lamp"
+        "en": "Mi LED Desk Lamp",
+        "nl": ""
       },
       "class": "light",
       "capabilities": ["onoff", "dim", "light_temperature"],
       "capabilitiesOptions": {
         "onoff": {
           "title": {
-            "en": "Power"
+            "en": "Power",
+            "nl": ""
           }
         },
         "dim": {
           "title": {
-            "en": "Brightness"
+            "en": "Brightness",
+            "nl": ""
           }
         }
       },
@@ -6461,7 +7043,8 @@
         {
           "type": "group",
           "label": {
-            "en": "Mi LED Desk Lamp settings"
+            "en": "Mi LED Desk Lamp settings",
+            "nl": ""
           },
           "children": [
             {
@@ -6469,7 +7052,8 @@
               "type": "text",
               "value": "192.168.xxx.xxx",
               "label": {
-                "en": "IP Address"
+                "en": "IP Address",
+                "nl": ""
               }
             },
             {
@@ -6477,7 +7061,8 @@
               "type": "text",
               "value": "",
               "label": {
-                "en": "Device Token"
+                "en": "Device Token",
+                "nl": ""
               }
             },
             {
@@ -6489,7 +7074,8 @@
                 "max": 3600
               },
               "label": {
-                "en": "Device update timer"
+                "en": "Device update timer",
+                "nl": ""
               }
             }
           ]
@@ -6517,29 +7103,34 @@
     {
       "id": "yeelight_light_ceiling4",
       "name": {
-        "en": "Yeelight Jiaoyue 650"
+        "en": "Yeelight Jiaoyue 650",
+        "nl": ""
       },
       "class": "light",
       "capabilities": ["onoff", "onoff.bg", "dim", "dim.bg", "light_hue", "light_saturation", "light_temperature", "light_temperature.bg", "light_mode", "light_mode.bg"],
       "capabilitiesOptions": {
         "onoff": {
           "title": {
-            "en": "Power"
+            "en": "Power",
+            "nl": ""
           }
         },
         "onoff.bg": {
           "title": {
-            "en": "Ambient Power"
+            "en": "Ambient Power",
+            "nl": ""
           }
         },
         "dim": {
           "title": {
-            "en": "Brightness"
+            "en": "Brightness",
+            "nl": ""
           }
         },
         "dim.bg": {
           "title": {
-            "en": "Ambient Brightness"
+            "en": "Ambient Brightness",
+            "nl": ""
           }
         }
       },
@@ -6570,7 +7161,8 @@
         {
           "type": "group",
           "label": {
-            "en": "Yeelight Jiaoyue 650 settings"
+            "en": "Yeelight Jiaoyue 650 settings",
+            "nl": ""
           },
           "children": [
             {
@@ -6578,7 +7170,8 @@
               "type": "text",
               "value": "192.168.xxx.xxx",
               "label": {
-                "en": "IP Address"
+                "en": "IP Address",
+                "nl": ""
               }
             },
             {
@@ -6586,7 +7179,8 @@
               "type": "text",
               "value": "",
               "label": {
-                "en": "Device Token"
+                "en": "Device Token",
+                "nl": ""
               }
             },
             {
@@ -6594,7 +7188,8 @@
               "type": "number",
               "value": 0.5,
               "label": {
-                "en": "Light on/off smooth"
+                "en": "Light on/off smooth",
+                "nl": ""
               },
               "attr": {
                 "min": 0.1,
@@ -6610,7 +7205,8 @@
                 "max": 3600
               },
               "label": {
-                "en": "Device update timer"
+                "en": "Device update timer",
+                "nl": ""
               }
             }
           ]
@@ -6638,29 +7234,34 @@
     {
       "id": "philips_light_sread1",
       "name": {
-        "en": "Philips EyeCare Desk Lamp 2"
+        "en": "Philips EyeCare Desk Lamp 2",
+        "nl": ""
       },
       "class": "light",
       "capabilities": ["onoff", "dim", "onoff.eyecare", "onoff.ambilight"],
       "capabilitiesOptions": {
         "onoff": {
           "title": {
-            "en": "Power"
+            "en": "Power",
+            "nl": ""
           }
         },
         "dim": {
           "title": {
-            "en": "Brightness"
+            "en": "Brightness",
+            "nl": ""
           }
         },
         "onoff.eyecare": {
           "title": {
-            "en": "Eyecare"
+            "en": "Eyecare",
+            "nl": ""
           }
         },
         "onoff.ambilight": {
           "title": {
-            "en": "Ambilight"
+            "en": "Ambilight",
+            "nl": ""
           }
         }
       },
@@ -6697,7 +7298,8 @@
         {
           "type": "group",
           "label": {
-            "en": "Philips EyeCare Desk Lamp 2 settings"
+            "en": "Philips EyeCare Desk Lamp 2 settings",
+            "nl": ""
           },
           "children": [
             {
@@ -6705,7 +7307,8 @@
               "type": "text",
               "value": "192.168.xxx.xxx",
               "label": {
-                "en": "IP Address"
+                "en": "IP Address",
+                "nl": ""
               }
             },
             {
@@ -6713,7 +7316,8 @@
               "type": "text",
               "value": "",
               "label": {
-                "en": "Device Token"
+                "en": "Device Token",
+                "nl": ""
               }
             },
             {
@@ -6725,7 +7329,8 @@
                 "max": 3600
               },
               "label": {
-                "en": "Device update timer"
+                "en": "Device update timer",
+                "nl": ""
               }
             }
           ]
@@ -6753,19 +7358,22 @@
     {
       "id": "philips_light_ceiling",
       "name": {
-        "en": "Philips EyeCare Ceiling Lamp"
+        "en": "Philips EyeCare Ceiling Lamp",
+        "nl": ""
       },
       "class": "light",
       "capabilities": ["onoff", "dim", "light_temperature"],
       "capabilitiesOptions": {
         "onoff": {
           "title": {
-            "en": "Power"
+            "en": "Power",
+            "nl": ""
           }
         },
         "dim": {
           "title": {
-            "en": "Brightness"
+            "en": "Brightness",
+            "nl": ""
           }
         }
       },
@@ -6792,7 +7400,8 @@
         {
           "type": "group",
           "label": {
-            "en": "Philips EyeCare Ceiling Lamp settings"
+            "en": "Philips EyeCare Ceiling Lamp settings",
+            "nl": ""
           },
           "children": [
             {
@@ -6800,7 +7409,8 @@
               "type": "text",
               "value": "192.168.xxx.xxx",
               "label": {
-                "en": "IP Address"
+                "en": "IP Address",
+                "nl": ""
               }
             },
             {
@@ -6808,7 +7418,8 @@
               "type": "text",
               "value": "",
               "label": {
-                "en": "Device Token"
+                "en": "Device Token",
+                "nl": ""
               }
             },
             {
@@ -6820,7 +7431,8 @@
                 "max": 3600
               },
               "label": {
-                "en": "Device update timer"
+                "en": "Device update timer",
+                "nl": ""
               }
             }
           ]
@@ -6848,19 +7460,22 @@
     {
       "id": "philips_light_bulb",
       "name": {
-        "en": "Philips Light Bulb"
+        "en": "Philips Light Bulb",
+        "nl": ""
       },
       "class": "light",
       "capabilities": ["onoff", "dim", "light_temperature"],
       "capabilitiesOptions": {
         "onoff": {
           "title": {
-            "en": "Power"
+            "en": "Power",
+            "nl": ""
           }
         },
         "dim": {
           "title": {
-            "en": "Brightness"
+            "en": "Brightness",
+            "nl": ""
           }
         }
       },
@@ -6887,7 +7502,8 @@
         {
           "type": "group",
           "label": {
-            "en": "Philips Light Bulb"
+            "en": "Philips Light Bulb",
+            "nl": ""
           },
           "children": [
             {
@@ -6895,7 +7511,8 @@
               "type": "text",
               "value": "192.168.xxx.xxx",
               "label": {
-                "en": "IP Address"
+                "en": "IP Address",
+                "nl": ""
               }
             },
             {
@@ -6903,7 +7520,8 @@
               "type": "text",
               "value": "",
               "label": {
-                "en": "Device Token"
+                "en": "Device Token",
+                "nl": ""
               }
             },
             {
@@ -6915,7 +7533,8 @@
                 "max": 3600
               },
               "label": {
-                "en": "Device update timer"
+                "en": "Device update timer",
+                "nl": ""
               }
             }
           ]
@@ -6943,19 +7562,22 @@
     {
       "id": "philips_light_candle",
       "name": {
-        "en": "Philips Candle Lamp"
+        "en": "Philips Candle Lamp",
+        "nl": ""
       },
       "class": "light",
       "capabilities": ["onoff", "dim", "light_temperature"],
       "capabilitiesOptions": {
         "onoff": {
           "title": {
-            "en": "Power"
+            "en": "Power",
+            "nl": ""
           }
         },
         "dim": {
           "title": {
-            "en": "Brightness"
+            "en": "Brightness",
+            "nl": ""
           }
         }
       },
@@ -6982,7 +7604,8 @@
         {
           "type": "group",
           "label": {
-            "en": "Philips Candle Lamp"
+            "en": "Philips Candle Lamp",
+            "nl": ""
           },
           "children": [
             {
@@ -6990,7 +7613,8 @@
               "type": "text",
               "value": "192.168.xxx.xxx",
               "label": {
-                "en": "IP Address"
+                "en": "IP Address",
+                "nl": ""
               }
             },
             {
@@ -6998,7 +7622,8 @@
               "type": "text",
               "value": "",
               "label": {
-                "en": "Device Token"
+                "en": "Device Token",
+                "nl": ""
               }
             },
             {
@@ -7010,7 +7635,8 @@
                 "max": 3600
               },
               "label": {
-                "en": "Device update timer"
+                "en": "Device update timer",
+                "nl": ""
               }
             }
           ]
@@ -7038,19 +7664,22 @@
     {
       "id": "philips_light_candle2",
       "name": {
-        "en": "Philips Candle Lamp Crystal"
+        "en": "Philips Candle Lamp Crystal",
+        "nl": ""
       },
       "class": "light",
       "capabilities": ["onoff", "dim", "light_temperature"],
       "capabilitiesOptions": {
         "onoff": {
           "title": {
-            "en": "Power"
+            "en": "Power",
+            "nl": ""
           }
         },
         "dim": {
           "title": {
-            "en": "Brightness"
+            "en": "Brightness",
+            "nl": ""
           }
         }
       },
@@ -7077,7 +7706,8 @@
         {
           "type": "group",
           "label": {
-            "en": "Philips Candle Lamp Crystal"
+            "en": "Philips Candle Lamp Crystal",
+            "nl": ""
           },
           "children": [
             {
@@ -7085,7 +7715,8 @@
               "type": "text",
               "value": "192.168.xxx.xxx",
               "label": {
-                "en": "IP Address"
+                "en": "IP Address",
+                "nl": ""
               }
             },
             {
@@ -7093,7 +7724,8 @@
               "type": "text",
               "value": "",
               "label": {
-                "en": "Device Token"
+                "en": "Device Token",
+                "nl": ""
               }
             },
             {
@@ -7105,7 +7737,8 @@
                 "max": 3600
               },
               "label": {
-                "en": "Device update timer"
+                "en": "Device update timer",
+                "nl": ""
               }
             }
           ]
@@ -7133,19 +7766,22 @@
     {
       "id": "philips_light_downlight",
       "name": {
-        "en": "Philips Downlight"
+        "en": "Philips Downlight",
+        "nl": ""
       },
       "class": "light",
       "capabilities": ["onoff", "dim", "light_temperature"],
       "capabilitiesOptions": {
         "onoff": {
           "title": {
-            "en": "Power"
+            "en": "Power",
+            "nl": ""
           }
         },
         "dim": {
           "title": {
-            "en": "Brightness"
+            "en": "Brightness",
+            "nl": ""
           }
         }
       },
@@ -7172,7 +7808,8 @@
         {
           "type": "group",
           "label": {
-            "en": "Philips Downlight"
+            "en": "Philips Downlight",
+            "nl": ""
           },
           "children": [
             {
@@ -7180,7 +7817,8 @@
               "type": "text",
               "value": "192.168.xxx.xxx",
               "label": {
-                "en": "IP Address"
+                "en": "IP Address",
+                "nl": ""
               }
             },
             {
@@ -7188,7 +7826,8 @@
               "type": "text",
               "value": "",
               "label": {
-                "en": "Device Token"
+                "en": "Device Token",
+                "nl": ""
               }
             },
             {
@@ -7200,7 +7839,8 @@
                 "max": 3600
               },
               "label": {
-                "en": "Device update timer"
+                "en": "Device update timer",
+                "nl": ""
               }
             }
           ]
@@ -7228,19 +7868,22 @@
     {
       "id": "philips_light_moonlight",
       "name": {
-        "en": "Philips Bedside Lamp"
+        "en": "Philips Bedside Lamp",
+        "nl": ""
       },
       "class": "light",
       "capabilities": ["onoff", "dim", "light_hue", "light_saturation", "light_temperature", "light_mode"],
       "capabilitiesOptions": {
         "onoff": {
           "title": {
-            "en": "Power"
+            "en": "Power",
+            "nl": ""
           }
         },
         "dim": {
           "title": {
-            "en": "Brightness"
+            "en": "Brightness",
+            "nl": ""
           }
         }
       },
@@ -7267,7 +7910,8 @@
         {
           "type": "group",
           "label": {
-            "en": "Philips Bedside Lamp settings"
+            "en": "Philips Bedside Lamp settings",
+            "nl": ""
           },
           "children": [
             {
@@ -7275,7 +7919,8 @@
               "type": "text",
               "value": "192.168.xxx.xxx",
               "label": {
-                "en": "IP Address"
+                "en": "IP Address",
+                "nl": ""
               }
             },
             {
@@ -7283,7 +7928,8 @@
               "type": "text",
               "value": "",
               "label": {
-                "en": "Device Token"
+                "en": "Device Token",
+                "nl": ""
               }
             },
             {
@@ -7295,7 +7941,8 @@
                 "max": 3600
               },
               "label": {
-                "en": "Device update timer"
+                "en": "Device update timer",
+                "nl": ""
               }
             }
           ]
@@ -7323,24 +7970,28 @@
     {
       "id": "chuangmi_plug_m1",
       "name": {
-        "en": "Mi Smart Plug WiFi"
+        "en": "Mi Smart Plug WiFi",
+        "nl": ""
       },
       "class": "socket",
       "capabilities": ["onoff", "measure_temperature", "onoff.led"],
       "capabilitiesOptions": {
         "onoff": {
           "title": {
-            "en": "Power"
+            "en": "Power",
+            "nl": ""
           }
         },
         "measure_temperature": {
           "title": {
-            "en": "Temperature"
+            "en": "Temperature",
+            "nl": ""
           }
         },
         "onoff.led": {
           "title": {
-            "en": "WiFi LED"
+            "en": "WiFi LED",
+            "nl": ""
           }
         }
       },
@@ -7379,7 +8030,8 @@
         {
           "type": "group",
           "label": {
-            "en": "Mi Smart Plug WiFi settings"
+            "en": "Mi Smart Plug WiFi settings",
+            "nl": ""
           },
           "children": [
             {
@@ -7387,7 +8039,8 @@
               "type": "text",
               "value": "192.168.xxx.xxx",
               "label": {
-                "en": "IP Address"
+                "en": "IP Address",
+                "nl": ""
               }
             },
             {
@@ -7395,7 +8048,8 @@
               "type": "text",
               "value": "",
               "label": {
-                "en": "Device Token"
+                "en": "Device Token",
+                "nl": ""
               }
             },
             {
@@ -7407,7 +8061,8 @@
                 "max": 3600
               },
               "label": {
-                "en": "Device update timer"
+                "en": "Device update timer",
+                "nl": ""
               }
             }
           ]
@@ -7435,29 +8090,34 @@
     {
       "id": "chuangmi_plug_v1",
       "name": {
-        "en": "Mi Smart Plug With USB WiFi"
+        "en": "Mi Smart Plug With USB WiFi",
+        "nl": ""
       },
       "class": "socket",
       "capabilities": ["onoff", "measure_temperature", "onoff.usb", "onoff.led"],
       "capabilitiesOptions": {
         "onoff": {
           "title": {
-            "en": "Power"
+            "en": "Power",
+            "nl": ""
           }
         },
         "onoff.usb": {
           "title": {
-            "en": "USB power"
+            "en": "USB power",
+            "nl": ""
           }
         },
         "measure_temperature": {
           "title": {
-            "en": "Temperature"
+            "en": "Temperature",
+            "nl": ""
           }
         },
         "onoff.led": {
           "title": {
-            "en": "WiFi LED"
+            "en": "WiFi LED",
+            "nl": ""
           }
         }
       },
@@ -7500,7 +8160,8 @@
         {
           "type": "group",
           "label": {
-            "en": "Mi Smart Plug With USB WiFi settings"
+            "en": "Mi Smart Plug With USB WiFi settings",
+            "nl": ""
           },
           "children": [
             {
@@ -7508,7 +8169,8 @@
               "type": "text",
               "value": "192.168.xxx.xxx",
               "label": {
-                "en": "IP Address"
+                "en": "IP Address",
+                "nl": ""
               }
             },
             {
@@ -7516,7 +8178,8 @@
               "type": "text",
               "value": "",
               "label": {
-                "en": "Device Token"
+                "en": "Device Token",
+                "nl": ""
               }
             },
             {
@@ -7528,7 +8191,8 @@
                 "max": 3600
               },
               "label": {
-                "en": "Device update timer"
+                "en": "Device update timer",
+                "nl": ""
               }
             }
           ]
@@ -7556,29 +8220,34 @@
     {
       "id": "chuangmi_plug_v3",
       "name": {
-        "en": "Mi Smart Plug With 2 USB WiFi"
+        "en": "Mi Smart Plug With 2 USB WiFi",
+        "nl": ""
       },
       "class": "socket",
       "capabilities": ["onoff", "measure_temperature", "onoff.usb", "onoff.led"],
       "capabilitiesOptions": {
         "onoff": {
           "title": {
-            "en": "Power"
+            "en": "Power",
+            "nl": ""
           }
         },
         "onoff.usb": {
           "title": {
-            "en": "USB power"
+            "en": "USB power",
+            "nl": ""
           }
         },
         "measure_temperature": {
           "title": {
-            "en": "Temperature"
+            "en": "Temperature",
+            "nl": ""
           }
         },
         "onoff.led": {
           "title": {
-            "en": "WiFi LED"
+            "en": "WiFi LED",
+            "nl": ""
           }
         }
       },
@@ -7621,7 +8290,8 @@
         {
           "type": "group",
           "label": {
-            "en": "Mi Smart Plug With 2 USB WiFi settings"
+            "en": "Mi Smart Plug With 2 USB WiFi settings",
+            "nl": ""
           },
           "children": [
             {
@@ -7629,7 +8299,8 @@
               "type": "text",
               "value": "192.168.xxx.xxx",
               "label": {
-                "en": "IP Address"
+                "en": "IP Address",
+                "nl": ""
               }
             },
             {
@@ -7637,7 +8308,8 @@
               "type": "text",
               "value": "",
               "label": {
-                "en": "Device Token"
+                "en": "Device Token",
+                "nl": ""
               }
             },
             {
@@ -7649,7 +8321,8 @@
                 "max": 3600
               },
               "label": {
-                "en": "Device update timer"
+                "en": "Device update timer",
+                "nl": ""
               }
             }
           ]
@@ -7677,29 +8350,34 @@
     {
       "id": "zimi_powerstrip_v2",
       "name": {
-        "en": "Mi Smart Power Strip"
+        "en": "Mi Smart Power Strip",
+        "nl": ""
       },
       "class": "socket",
       "capabilities": ["onoff", "measure_power", "meter_ampere", "measure_temperature", "onoff.led"],
       "capabilitiesOptions": {
         "onoff": {
           "title": {
-            "en": "Power"
+            "en": "Power",
+            "nl": ""
           }
         },
         "measure_power": {
           "title": {
-            "en": "Watt"
+            "en": "Watt",
+            "nl": ""
           }
         },
         "measure_temperature": {
           "title": {
-            "en": "Temperature"
+            "en": "Temperature",
+            "nl": ""
           }
         },
         "onoff.led": {
           "title": {
-            "en": "WiFi LED"
+            "en": "WiFi LED",
+            "nl": ""
           }
         }
       },
@@ -7737,7 +8415,8 @@
         {
           "type": "group",
           "label": {
-            "en": "Mi Smart Power Strip settings"
+            "en": "Mi Smart Power Strip settings",
+            "nl": ""
           },
           "children": [
             {
@@ -7745,7 +8424,8 @@
               "type": "text",
               "value": "192.168.xxx.xxx",
               "label": {
-                "en": "IP Address"
+                "en": "IP Address",
+                "nl": ""
               }
             },
             {
@@ -7753,7 +8433,8 @@
               "type": "text",
               "value": "",
               "label": {
-                "en": "Device Token"
+                "en": "Device Token",
+                "nl": ""
               }
             },
             {
@@ -7765,7 +8446,8 @@
                 "max": 3600
               },
               "label": {
-                "en": "Device update timer"
+                "en": "Device update timer",
+                "nl": ""
               }
             }
           ]
@@ -7793,29 +8475,34 @@
     {
       "id": "qmi_powerstrip_v1",
       "name": {
-        "en": "CHINGMI Smart Power Strip"
+        "en": "CHINGMI Smart Power Strip",
+        "nl": ""
       },
       "class": "socket",
       "capabilities": ["onoff", "measure_power", "meter_ampere", "measure_temperature", "measure_voltage"],
       "capabilitiesOptions": {
         "onoff": {
           "title": {
-            "en": "Power"
+            "en": "Power",
+            "nl": ""
           }
         },
         "measure_power": {
           "title": {
-            "en": "Watt"
+            "en": "Watt",
+            "nl": ""
           }
         },
         "measure_temperature": {
           "title": {
-            "en": "Temperature"
+            "en": "Temperature",
+            "nl": ""
           }
         },
         "measure_voltage": {
           "title": {
-            "en": "Voltage"
+            "en": "Voltage",
+            "nl": ""
           }
         }
       },
@@ -7847,7 +8534,8 @@
         {
           "type": "group",
           "label": {
-            "en": "CHINGMI Smart Power Strip settings"
+            "en": "CHINGMI Smart Power Strip settings",
+            "nl": ""
           },
           "children": [
             {
@@ -7855,7 +8543,8 @@
               "type": "text",
               "value": "192.168.xxx.xxx",
               "label": {
-                "en": "IP Address"
+                "en": "IP Address",
+                "nl": ""
               }
             },
             {
@@ -7863,7 +8552,8 @@
               "type": "text",
               "value": "",
               "label": {
-                "en": "Device Token"
+                "en": "Device Token",
+                "nl": ""
               }
             },
             {
@@ -7875,7 +8565,8 @@
                 "max": 3600
               },
               "label": {
-                "en": "Device update timer"
+                "en": "Device update timer",
+                "nl": ""
               }
             }
           ]
@@ -7903,19 +8594,22 @@
     {
       "id": "mi_air_purifier_ma2",
       "name": {
-        "en": "Mi Air Purifier S2"
+        "en": "Mi Air Purifier S2",
+        "nl": ""
       },
       "class": "sensor",
       "capabilities": ["onoff", "dim", "air_purifier_mode", "measure_temperature", "measure_humidity", "measure_pm25", "measure_luminance"],
       "capabilitiesOptions": {
         "onoff": {
           "title": {
-            "en": "Power"
+            "en": "Power",
+            "nl": ""
           }
         },
         "dim": {
           "title": {
-            "en": "Speed"
+            "en": "Speed",
+            "nl": ""
           }
         }
       },
@@ -7946,7 +8640,8 @@
         {
           "type": "group",
           "label": {
-            "en": "Mi Air Purifier S2 settings"
+            "en": "Mi Air Purifier S2 settings",
+            "nl": ""
           },
           "children": [
             {
@@ -7954,7 +8649,8 @@
               "type": "text",
               "value": "192.168.xxx.xxx",
               "label": {
-                "en": "IP Address"
+                "en": "IP Address",
+                "nl": ""
               }
             },
             {
@@ -7962,7 +8658,8 @@
               "type": "text",
               "value": "",
               "label": {
-                "en": "Device Token"
+                "en": "Device Token",
+                "nl": ""
               }
             },
             {
@@ -7974,7 +8671,8 @@
                 "max": 3600
               },
               "label": {
-                "en": "Device update timer"
+                "en": "Device update timer",
+                "nl": ""
               }
             }
           ]
@@ -7982,7 +8680,8 @@
         {
           "type": "group",
           "label": {
-            "en": "Extra settings"
+            "en": "Extra settings",
+            "nl": ""
           },
           "children": [
             {
@@ -7990,7 +8689,8 @@
               "type": "checkbox",
               "value": true,
               "label": {
-                "en": "LED"
+                "en": "LED",
+                "nl": ""
               }
             },
             {
@@ -7998,7 +8698,8 @@
               "type": "checkbox",
               "value": true,
               "label": {
-                "en": "Buzzer"
+                "en": "Buzzer",
+                "nl": ""
               }
             },
             {
@@ -8006,14 +8707,16 @@
               "type": "checkbox",
               "value": true,
               "label": {
-                "en": "Child Lock"
+                "en": "Child Lock",
+                "nl": ""
               }
             },
             {
               "id": "filter1_life",
               "type": "label",
               "label": {
-                "en": "Filter life"
+                "en": "Filter life",
+                "nl": ""
               },
               "value": "0%"
             },
@@ -8021,7 +8724,8 @@
               "id": "purify_volume",
               "type": "label",
               "label": {
-                "en": "Air Cleared (m3)"
+                "en": "Air Cleared (m3)",
+                "nl": ""
               },
               "value": "0"
             }
@@ -8050,19 +8754,22 @@
     {
       "id": "mi_air_purifier_v6",
       "name": {
-        "en": "Mi Air Purifier Pro"
+        "en": "Mi Air Purifier Pro",
+        "nl": ""
       },
       "class": "sensor",
       "capabilities": ["onoff", "dim", "air_purifier_mode", "measure_temperature", "measure_humidity", "measure_pm25", "measure_luminance"],
       "capabilitiesOptions": {
         "onoff": {
           "title": {
-            "en": "Power"
+            "en": "Power",
+            "nl": ""
           }
         },
         "dim": {
           "title": {
-            "en": "Speed"
+            "en": "Speed",
+            "nl": ""
           }
         }
       },
@@ -8093,7 +8800,8 @@
         {
           "type": "group",
           "label": {
-            "en": "Mi Air Purifier Pro settings"
+            "en": "Mi Air Purifier Pro settings",
+            "nl": ""
           },
           "children": [
             {
@@ -8101,7 +8809,8 @@
               "type": "text",
               "value": "192.168.xxx.xxx",
               "label": {
-                "en": "IP Address"
+                "en": "IP Address",
+                "nl": ""
               }
             },
             {
@@ -8109,7 +8818,8 @@
               "type": "text",
               "value": "",
               "label": {
-                "en": "Device Token"
+                "en": "Device Token",
+                "nl": ""
               }
             },
             {
@@ -8121,7 +8831,8 @@
                 "max": 3600
               },
               "label": {
-                "en": "Device update timer"
+                "en": "Device update timer",
+                "nl": ""
               }
             }
           ]
@@ -8129,7 +8840,8 @@
         {
           "type": "group",
           "label": {
-            "en": "Extra settings"
+            "en": "Extra settings",
+            "nl": ""
           },
           "children": [
             {
@@ -8137,7 +8849,8 @@
               "type": "checkbox",
               "value": true,
               "label": {
-                "en": "LED"
+                "en": "LED",
+                "nl": ""
               }
             },
             {
@@ -8145,7 +8858,8 @@
               "type": "checkbox",
               "value": true,
               "label": {
-                "en": "Volume"
+                "en": "Volume",
+                "nl": ""
               }
             },
             {
@@ -8153,14 +8867,16 @@
               "type": "checkbox",
               "value": true,
               "label": {
-                "en": "Child Lock"
+                "en": "Child Lock",
+                "nl": ""
               }
             },
             {
               "id": "filter1_life",
               "type": "label",
               "label": {
-                "en": "Filter life"
+                "en": "Filter life",
+                "nl": ""
               },
               "value": "0%"
             },
@@ -8168,7 +8884,8 @@
               "id": "purify_volume",
               "type": "label",
               "label": {
-                "en": "Air Cleared (m3)"
+                "en": "Air Cleared (m3)",
+                "nl": ""
               },
               "value": "0"
             }
@@ -8197,24 +8914,28 @@
     {
       "id": "mi_rockrobo_vacuum_v1",
       "name": {
-        "en": "Mi Vacuum Cleaner"
+        "en": "Mi Vacuum Cleaner",
+        "nl": ""
       },
       "class": "vacuumcleaner",
       "capabilities": ["onoff", "onoff.findme", "dim", "vacuumcleaner_state", "measure_battery", "alarm_battery"],
       "capabilitiesOptions": {
         "onoff": {
           "title": {
-            "en": "Clean"
+            "en": "Clean",
+            "nl": ""
           }
         },
         "onoff.findme": {
           "title": {
-            "en": "Find me"
+            "en": "Find me",
+            "nl": ""
           }
         },
         "dim": {
           "title": {
-            "en": "Speed"
+            "en": "Speed",
+            "nl": ""
           }
         }
       },
@@ -8252,7 +8973,8 @@
         {
           "type": "group",
           "label": {
-            "en": "Mi Vacuum Cleaner settings"
+            "en": "Mi Vacuum Cleaner settings",
+            "nl": ""
           },
           "children": [
             {
@@ -8260,7 +8982,8 @@
               "type": "text",
               "value": "192.168.xxx.xxx",
               "label": {
-                "en": "IP Address"
+                "en": "IP Address",
+                "nl": ""
               }
             },
             {
@@ -8268,7 +8991,8 @@
               "type": "text",
               "value": "",
               "label": {
-                "en": "Device Token"
+                "en": "Device Token",
+                "nl": ""
               }
             },
             {
@@ -8280,7 +9004,8 @@
                 "max": 3600
               },
               "label": {
-                "en": "Device update timer"
+                "en": "Device update timer",
+                "nl": ""
               }
             }
           ]
@@ -8288,17 +9013,20 @@
         {
           "type": "group",
           "label": {
-            "en": "Vacuum life settings"
+            "en": "Vacuum life settings",
+            "nl": ""
           },
           "children": [
             {
               "id": "alarm_threshold",
               "type": "number",
               "label": {
-                "en": "Alarm threshold"
+                "en": "Alarm threshold",
+                "nl": ""
               },
               "hint": {
-                "en": "Work time to (brush, filter) below which the alarm will be activated."
+                "en": "Work time to (brush, filter) below which the alarm will be activated.",
+                "nl": ""
               },
               "value": 20,
               "attr": {
@@ -8310,7 +9038,8 @@
               "id": "main_brush_work_time",
               "type": "label",
               "label": {
-                "en": "Main brush work time"
+                "en": "Main brush work time",
+                "nl": ""
               },
               "value": "0%"
             },
@@ -8318,7 +9047,8 @@
               "id": "side_brush_work_time",
               "type": "label",
               "label": {
-                "en": "Side brush work time"
+                "en": "Side brush work time",
+                "nl": ""
               },
               "value": "0%"
             },
@@ -8326,7 +9056,8 @@
               "id": "filter_work_time",
               "type": "label",
               "label": {
-                "en": "Filter work time"
+                "en": "Filter work time",
+                "nl": ""
               },
               "value": "0%"
             },
@@ -8334,7 +9065,8 @@
               "id": "sensor_dirty_time",
               "type": "label",
               "label": {
-                "en": "Sensor dirty time"
+                "en": "Sensor dirty time",
+                "nl": ""
               },
               "value": "0%"
             },
@@ -8342,7 +9074,8 @@
               "id": "total_work_time",
               "type": "label",
               "label": {
-                "en": "Total work time"
+                "en": "Total work time",
+                "nl": ""
               },
               "value": "0"
             },
@@ -8350,7 +9083,8 @@
               "id": "total_cleared_area",
               "type": "label",
               "label": {
-                "en": "Total cleared area"
+                "en": "Total cleared area",
+                "nl": ""
               },
               "value": "0"
             },
@@ -8358,7 +9092,8 @@
               "id": "total_clean_count",
               "type": "label",
               "label": {
-                "en": "Total clean count"
+                "en": "Total clean count",
+                "nl": ""
               },
               "value": "0"
             }
@@ -8387,24 +9122,28 @@
     {
       "id": "mi_rockrobo_vacuum_s5",
       "name": {
-        "en": "Mi Vacuum Cleaner v2"
+        "en": "Mi Vacuum Cleaner v2",
+        "nl": ""
       },
       "class": "vacuumcleaner",
       "capabilities": ["onoff", "onoff.findme", "dim", "vacuumcleaner_state", "measure_battery", "alarm_battery"],
       "capabilitiesOptions": {
         "onoff": {
           "title": {
-            "en": "Clean"
+            "en": "Clean",
+            "nl": ""
           }
         },
         "onoff.findme": {
           "title": {
-            "en": "Find me"
+            "en": "Find me",
+            "nl": ""
           }
         },
         "dim": {
           "title": {
-            "en": "Speed"
+            "en": "Speed",
+            "nl": ""
           }
         }
       },
@@ -8442,7 +9181,8 @@
         {
           "type": "group",
           "label": {
-            "en": "Mi Vacuum Cleaner v2 settings"
+            "en": "Mi Vacuum Cleaner v2 settings",
+            "nl": ""
           },
           "children": [
             {
@@ -8450,7 +9190,8 @@
               "type": "text",
               "value": "192.168.xxx.xxx",
               "label": {
-                "en": "IP Address"
+                "en": "IP Address",
+                "nl": ""
               }
             },
             {
@@ -8458,7 +9199,8 @@
               "type": "text",
               "value": "",
               "label": {
-                "en": "Device Token"
+                "en": "Device Token",
+                "nl": ""
               }
             },
             {
@@ -8470,7 +9212,8 @@
                 "max": 3600
               },
               "label": {
-                "en": "Device update timer"
+                "en": "Device update timer",
+                "nl": ""
               }
             }
           ]
@@ -8478,17 +9221,20 @@
         {
           "type": "group",
           "label": {
-            "en": "Vacuum life settings"
+            "en": "Vacuum life settings",
+            "nl": ""
           },
           "children": [
             {
               "id": "alarm_threshold",
               "type": "number",
               "label": {
-                "en": "Alarm threshold"
+                "en": "Alarm threshold",
+                "nl": ""
               },
               "hint": {
-                "en": "Work time to (brush, filter) below which the alarm will be activated."
+                "en": "Work time to (brush, filter) below which the alarm will be activated.",
+                "nl": ""
               },
               "value": 20,
               "attr": {
@@ -8500,7 +9246,8 @@
               "id": "main_brush_work_time",
               "type": "label",
               "label": {
-                "en": "Main brush work time"
+                "en": "Main brush work time",
+                "nl": ""
               },
               "value": "0%"
             },
@@ -8508,7 +9255,8 @@
               "id": "side_brush_work_time",
               "type": "label",
               "label": {
-                "en": "Side brush work time"
+                "en": "Side brush work time",
+                "nl": ""
               },
               "value": "0%"
             },
@@ -8516,7 +9264,8 @@
               "id": "filter_work_time",
               "type": "label",
               "label": {
-                "en": "Filter work time"
+                "en": "Filter work time",
+                "nl": ""
               },
               "value": "0%"
             },
@@ -8524,7 +9273,8 @@
               "id": "sensor_dirty_time",
               "type": "label",
               "label": {
-                "en": "Sensor dirty time"
+                "en": "Sensor dirty time",
+                "nl": ""
               },
               "value": "0%"
             },
@@ -8532,7 +9282,8 @@
               "id": "total_work_time",
               "type": "label",
               "label": {
-                "en": "Total work time"
+                "en": "Total work time",
+                "nl": ""
               },
               "value": "0"
             },
@@ -8540,7 +9291,8 @@
               "id": "total_cleared_area",
               "type": "label",
               "label": {
-                "en": "Total cleared area"
+                "en": "Total cleared area",
+                "nl": ""
               },
               "value": "0"
             },
@@ -8548,7 +9300,8 @@
               "id": "total_clean_count",
               "type": "label",
               "label": {
-                "en": "Total clean count"
+                "en": "Total clean count",
+                "nl": ""
               },
               "value": "0"
             }
@@ -8577,19 +9330,22 @@
     {
       "id": "mi_humidifier_v1",
       "name": {
-        "en": "Mi Humidifier V1"
+        "en": "Mi Humidifier V1",
+        "nl": ""
       },
       "class": "sensor",
       "capabilities": ["onoff", "dim", "humidifier_mode", "measure_temperature", "measure_humidity"],
       "capabilitiesOptions": {
         "onoff": {
           "title": {
-            "en": "Power"
+            "en": "Power",
+            "nl": ""
           }
         },
         "dim": {
           "title": {
-            "en": "Target Relative Humidity"
+            "en": "Target Relative Humidity",
+            "nl": ""
           }
         }
       },
@@ -8620,7 +9376,8 @@
         {
           "type": "group",
           "label": {
-            "en": "Mi Humidifier V1 settings"
+            "en": "Mi Humidifier V1 settings",
+            "nl": ""
           },
           "children": [
             {
@@ -8628,7 +9385,8 @@
               "type": "text",
               "value": "192.168.xxx.xxx",
               "label": {
-                "en": "IP Address"
+                "en": "IP Address",
+                "nl": ""
               }
             },
             {
@@ -8636,7 +9394,8 @@
               "type": "text",
               "value": "",
               "label": {
-                "en": "Device Token"
+                "en": "Device Token",
+                "nl": ""
               }
             },
             {
@@ -8648,7 +9407,8 @@
                 "max": 3600
               },
               "label": {
-                "en": "Device update timer"
+                "en": "Device update timer",
+                "nl": ""
               }
             }
           ]
@@ -8656,7 +9416,8 @@
         {
           "type": "group",
           "label": {
-            "en": "Extra settings"
+            "en": "Extra settings",
+            "nl": ""
           },
           "children": [
             {
@@ -8664,7 +9425,8 @@
               "type": "checkbox",
               "value": true,
               "label": {
-                "en": "LED"
+                "en": "LED",
+                "nl": ""
               }
             },
             {
@@ -8672,7 +9434,8 @@
               "type": "checkbox",
               "value": true,
               "label": {
-                "en": "Buzzer"
+                "en": "Buzzer",
+                "nl": ""
               }
             }
           ]
@@ -8700,29 +9463,34 @@
     {
       "id": "mi_humidifier_ca1",
       "name": {
-        "en": "Mi Humidifier V2"
+        "en": "Mi Humidifier V2",
+        "nl": ""
       },
       "class": "sensor",
       "capabilities": ["onoff", "onoff.dry", "dim", "humidifier_ca1_mode", "measure_temperature", "measure_humidity", "measure_water"],
       "capabilitiesOptions": {
         "onoff": {
           "title": {
-            "en": "Power"
+            "en": "Power",
+            "nl": ""
           }
         },
         "onoff.dry": {
           "title": {
-            "en": "Swing mode"
+            "en": "Swing mode",
+            "nl": ""
           }
         },
         "dim": {
           "title": {
-            "en": "Target Relative Humidity"
+            "en": "Target Relative Humidity",
+            "nl": ""
           }
         },
         "measure_water": {
           "title": {
-            "en": "Water level"
+            "en": "Water level",
+            "nl": ""
           }
         }
       },
@@ -8763,7 +9531,8 @@
         {
           "type": "group",
           "label": {
-            "en": "Mi Humidifier V2 settings"
+            "en": "Mi Humidifier V2 settings",
+            "nl": ""
           },
           "children": [
             {
@@ -8771,7 +9540,8 @@
               "type": "text",
               "value": "192.168.xxx.xxx",
               "label": {
-                "en": "IP Address"
+                "en": "IP Address",
+                "nl": ""
               }
             },
             {
@@ -8779,7 +9549,8 @@
               "type": "text",
               "value": "",
               "label": {
-                "en": "Device Token"
+                "en": "Device Token",
+                "nl": ""
               }
             },
             {
@@ -8791,7 +9562,8 @@
                 "max": 3600
               },
               "label": {
-                "en": "Device update timer"
+                "en": "Device update timer",
+                "nl": ""
               }
             }
           ]
@@ -8799,7 +9571,8 @@
         {
           "type": "group",
           "label": {
-            "en": "Extra settings"
+            "en": "Extra settings",
+            "nl": ""
           },
           "children": [
             {
@@ -8807,7 +9580,8 @@
               "type": "checkbox",
               "value": true,
               "label": {
-                "en": "LED"
+                "en": "LED",
+                "nl": ""
               }
             },
             {
@@ -8815,7 +9589,8 @@
               "type": "checkbox",
               "value": true,
               "label": {
-                "en": "Buzzer"
+                "en": "Buzzer",
+                "nl": ""
               }
             },
             {
@@ -8823,7 +9598,8 @@
               "type": "checkbox",
               "value": true,
               "label": {
-                "en": "Child Lock"
+                "en": "Child Lock",
+                "nl": ""
               }
             }
           ]
@@ -8851,19 +9627,22 @@
     {
       "id": "zhimi_airfresh_va2",
       "name": {
-        "en": "Mi Air Fresh VA2"
+        "en": "Mi Air Fresh VA2",
+        "nl": ""
       },
       "class": "sensor",
       "capabilities": ["onoff", "dim", "air_fresh_mode", "measure_temperature", "measure_humidity", "measure_pm25", "measure_co2"],
       "capabilitiesOptions": {
         "onoff": {
           "title": {
-            "en": "Power"
+            "en": "Power",
+            "nl": ""
           }
         },
         "dim": {
           "title": {
-            "en": "Speed"
+            "en": "Speed",
+            "nl": ""
           }
         }
       },
@@ -8894,7 +9673,8 @@
         {
           "type": "group",
           "label": {
-            "en": "Mi Air Fresh VA2 settings"
+            "en": "Mi Air Fresh VA2 settings",
+            "nl": ""
           },
           "children": [
             {
@@ -8902,7 +9682,8 @@
               "type": "text",
               "value": "192.168.xxx.xxx",
               "label": {
-                "en": "IP Address"
+                "en": "IP Address",
+                "nl": ""
               }
             },
             {
@@ -8910,7 +9691,8 @@
               "type": "text",
               "value": "",
               "label": {
-                "en": "Device Token"
+                "en": "Device Token",
+                "nl": ""
               }
             },
             {
@@ -8922,7 +9704,8 @@
                 "max": 3600
               },
               "label": {
-                "en": "Device update timer"
+                "en": "Device update timer",
+                "nl": ""
               }
             }
           ]
@@ -8930,7 +9713,8 @@
         {
           "type": "group",
           "label": {
-            "en": "Extra settings"
+            "en": "Extra settings",
+            "nl": ""
           },
           "children": [
             {
@@ -8938,7 +9722,8 @@
               "type": "checkbox",
               "value": true,
               "label": {
-                "en": "LED"
+                "en": "LED",
+                "nl": ""
               }
             },
             {
@@ -8946,7 +9731,8 @@
               "type": "checkbox",
               "value": true,
               "label": {
-                "en": "Buzzer"
+                "en": "Buzzer",
+                "nl": ""
               }
             },
             {
@@ -8954,14 +9740,16 @@
               "type": "checkbox",
               "value": true,
               "label": {
-                "en": "Child Lock"
+                "en": "Child Lock",
+                "nl": ""
               }
             },
             {
               "id": "f1_hour_used",
               "type": "label",
               "label": {
-                "en": "Filter life"
+                "en": "Filter life",
+                "nl": ""
               },
               "value": "0%"
             }
